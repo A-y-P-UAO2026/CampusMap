@@ -1,75 +1,156 @@
-# React + TypeScript + Vite
+# CampusMap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CampusMap es una plataforma universitaria para explorar el mapa del campus, buscar ubicaciones, calcular rutas y gestionar eventos.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS v4
+- shadcn/ui con Base UI
+- React Router
+- Supabase Auth y PostgreSQL
+- Docker para el entorno local de Supabase
 
-## React Compiler
+## Requisitos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Node.js 20 o superior
+- pnpm
+- Docker Engine y Docker Compose
+- Supabase CLI instalada como dependencia del proyecto
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Desde la raíz del proyecto:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+pnpm install
+pnpm add -D supabase
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Inicializa la configuración local de Supabase si todavía no existe:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+pnpm supabase init
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Ejecutar Supabase localmente
 
+Verifica que Docker esté iniciado:
+
+```bash
+docker info
+```
+
+Inicia los servicios locales:
+
+```bash
+pnpm supabase start
+```
+
+Aplica las migraciones locales desde `supabase/migrations/`:
+
+```bash
+pnpm supabase db reset
+```
+
+Este comando reinicia la base de datos local y ejecuta las migraciones desde cero. No modifica el proyecto remoto de Supabase.
+
+Para consultar las URLs y claves locales:
+
+```bash
+pnpm supabase status
+```
+
+## Variables de entorno
+
+Crea `.env.local` en la raíz del proyecto y usa las credenciales locales mostradas por `pnpm supabase status`:
+
+```env
+VITE_SUPABASE_URL=http://127.0.0.1:54321
+VITE_SUPABASE_PUBLISHABLE_KEY=tu_clave_publishable_local
+```
+
+No subas `.env`, `.env.local` ni claves privadas al repositorio. No uses la `Secret Key` en el frontend.
+
+## Ejecutar el frontend
+
+```bash
+pnpm dev
+```
+
+La aplicación estará disponible normalmente en:
+
+```text
+http://localhost:5173
+```
+
+## Comandos útiles
+
+```bash
+# Verificar TypeScript y generar el build
+pnpm build
+
+# Ejecutar ESLint
+pnpm lint
+
+# Reiniciar la base local y aplicar todas las migraciones
+pnpm supabase db reset
+
+# Detener los servicios locales
+pnpm supabase stop
+```
+
+## Aplicar migraciones remotas
+
+No ejecutes este proceso hasta revisar y probar la migración localmente:
+
+```bash
+pnpm supabase login
+pnpm supabase link --project-ref TU_PROJECT_REF
+pnpm supabase db push
+```
+
+`pnpm supabase db push` modifica la base de datos remota. Las migraciones aplicadas no deben editarse; los cambios posteriores deben crearse en un nuevo archivo dentro de `supabase/migrations/`.
+
+## Arquitectura
+
+```text
+src/
+├── algorithms/    Algoritmos como Dijkstra
+├── components/    Componentes reutilizables y UI
+├── features/      Módulos por dominio
+├── hooks/         Hooks compartidos
+├── layouts/       Layouts de la aplicación
+├── lib/           Supabase y utilidades
+├── pages/         Pantallas y rutas
+├── services/      Acceso a datos y RPC
+├── structures/    Graph, Trie, MinHeap, Queue y Stack
+└── types/         Contratos TypeScript compartidos
+```
+
+La migración inicial está en [`supabase/migrations/`](supabase/migrations/). Los contratos están en [`src/types/`](src/types/).
+
+## Distribución del trabajo
+
+El plan detallado para los dos desarrolladores está en [`docs/development-plan.md`](docs/development-plan.md):
+
+- Desarrollador 1: navegación, Graph, Dijkstra, Trie, Stack y mapa SVG.
+- Desarrollador 2: eventos, MinHeap, Queue, autenticación e inscripciones.
+
+## Flujo de ramas
+
+No trabajar directamente sobre `main`. Usar ramas independientes:
+
+```bash
+git checkout -b feat/navigation-module
+git checkout -b feat/events-module
+```
+
+Antes de abrir un Pull Request:
+
+```bash
+pnpm lint
+pnpm build
+git diff --check
 ```
