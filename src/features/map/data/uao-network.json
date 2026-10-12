@@ -1,0 +1,3357 @@
+{
+  "bounds": {
+    "west": -76.5234,
+    "south": 3.3526,
+    "east": -76.5189,
+    "north": 3.3544
+  },
+  "attribution": "Datos de senderos © OpenStreetMap contributors (ODbL); POI: mapa uMap UAO. Enlaces discontinuos: simulación académica.",
+  "locations": [
+    {
+      "id": "a932e976-2583-8408-a57f-b5636e4c69a8",
+      "name": "Cajeros Automáticos",
+      "slug": "uao-poi-cajeros-automaticos",
+      "kind": "poi",
+      "category": "Servicios",
+      "lat": 3.353324,
+      "lng": -76.520693
+    },
+    {
+      "id": "d65c9912-1c1c-87b4-a583-f299e1d431a5",
+      "name": "Punto de pago GEO PARKING",
+      "slug": "uao-poi-punto-de-pago-geo-parking",
+      "kind": "poi",
+      "category": "Servicios",
+      "lat": 3.353942,
+      "lng": -76.51999
+    },
+    {
+      "id": "d88ad7d6-dfa1-8b0e-a344-87f3e6d0b1bb",
+      "name": "Punto de Recarga Tarjeta MIO",
+      "slug": "uao-poi-punto-de-recarga-tarjeta-mio",
+      "kind": "poi",
+      "category": "Servicios",
+      "lat": 3.353133,
+      "lng": -76.520832
+    },
+    {
+      "id": "ae202c7f-2c6d-87e8-a7ac-9da7a9c75a4e",
+      "name": "Puntos de pago GEO PARKING",
+      "slug": "uao-poi-puntos-de-pago-geo-parking",
+      "kind": "poi",
+      "category": "Servicios",
+      "lat": 3.353752,
+      "lng": -76.522798
+    },
+    {
+      "id": "43e26279-543b-8d15-a116-a1db37f1d453",
+      "name": "Tienda UAO",
+      "slug": "uao-poi-tienda-uao",
+      "kind": "poi",
+      "category": "Servicios",
+      "lat": 3.35319,
+      "lng": -76.521159
+    },
+    {
+      "id": "09bbe647-096e-8e76-a380-e458bb612327",
+      "name": "Porteria 1",
+      "slug": "uao-poi-porteria-1",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.353578,
+      "lng": -76.523217
+    },
+    {
+      "id": "f84aa6c6-3ecb-830d-a750-8b8641cbd9b7",
+      "name": "Porteria 2",
+      "slug": "uao-poi-porteria-2",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.353037,
+      "lng": -76.522139
+    },
+    {
+      "id": "303655a7-af9d-857e-adef-5d5d779cccd3",
+      "name": "Portería 3",
+      "slug": "uao-poi-porteria-3",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.353715,
+      "lng": -76.520532
+    },
+    {
+      "id": "dffcea25-6238-86e6-ae64-187a18e8fd52",
+      "name": "Porteria 4",
+      "slug": "uao-poi-porteria-4",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.35429,
+      "lng": -76.522305
+    },
+    {
+      "id": "cb52374c-c540-8e32-a18e-4834eaea4717",
+      "name": "Portería 5",
+      "slug": "uao-poi-porteria-5",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.354122,
+      "lng": -76.519604
+    },
+    {
+      "id": "06e740a8-4461-8958-a665-1d74ce18ec73",
+      "name": "Portería 6",
+      "slug": "uao-poi-porteria-6",
+      "kind": "poi",
+      "category": "Porterías",
+      "lat": 3.353131,
+      "lng": -76.519588
+    },
+    {
+      "id": "c165707b-c58a-8dd0-aef9-8e8b84e13963",
+      "name": "Parqueadero de Bicicletas",
+      "slug": "uao-poi-parqueadero-de-bicicletas",
+      "kind": "poi",
+      "category": "Parqueaderos",
+      "lat": 3.35319,
+      "lng": -76.519193
+    },
+    {
+      "id": "10dcfa6b-d6d7-819e-af50-5cee3d36f1ac",
+      "name": "Parqueadero de Empleados P2",
+      "slug": "uao-poi-parqueadero-de-empleados-p2",
+      "kind": "poi",
+      "category": "Parqueaderos",
+      "lat": 3.353118,
+      "lng": -76.522455
+    },
+    {
+      "id": "1185e5b4-3c9a-893b-abdf-94492620ce73",
+      "name": "Parqueadero de Empleados P4",
+      "slug": "uao-poi-parqueadero-de-empleados-p4",
+      "kind": "poi",
+      "category": "Parqueaderos",
+      "lat": 3.354154,
+      "lng": -76.522305
+    },
+    {
+      "id": "598d6e1e-d778-82cb-afc5-aaa87225bf9b",
+      "name": "Parqueadero de Estudiantes y Visitantes",
+      "slug": "uao-poi-parqueadero-de-estudiantes-y-visitantes",
+      "kind": "poi",
+      "category": "Parqueaderos",
+      "lat": 3.353669,
+      "lng": -76.519116
+    },
+    {
+      "id": "a114cc4e-6650-8e83-acad-4ba3e017c9d5",
+      "name": "Parqueadero de Motos",
+      "slug": "uao-poi-parqueadero-de-motos",
+      "kind": "poi",
+      "category": "Parqueaderos",
+      "lat": 3.353444,
+      "lng": -76.519577
+    },
+    {
+      "id": "e1bf2b6b-fec2-83e1-a3ee-2c85632966d6",
+      "name": "Biblioteca - CRAI",
+      "slug": "uao-poi-biblioteca-crai",
+      "kind": "poi",
+      "category": "Edificio Central",
+      "lat": 3.353415,
+      "lng": -76.52246
+    },
+    {
+      "id": "26f1011e-fc7d-8547-a7cc-8427d84b616b",
+      "name": "Cafetería D´Cafe",
+      "slug": "uao-poi-cafeteria-dcafe",
+      "kind": "poi",
+      "category": "Edificio Central",
+      "lat": 3.353278,
+      "lng": -76.522715
+    },
+    {
+      "id": "ba6337d6-0916-85f2-a57b-7de9dde2f933",
+      "name": "Oficinas Edificio Central - Ala Norte",
+      "slug": "uao-poi-edificio-central-norte",
+      "kind": "poi",
+      "category": "Edificio Central",
+      "lat": 3.353795,
+      "lng": -76.522739
+    },
+    {
+      "id": "30fc12d0-feb0-8918-a4d0-67282ea7a894",
+      "name": "Oficinas Edificio Central - Ala Sur",
+      "slug": "uao-poi-edificio-central-sur",
+      "kind": "poi",
+      "category": "Edificio Central",
+      "lat": 3.353452,
+      "lng": -76.522726
+    },
+    {
+      "id": "9866328b-5df5-837c-aea9-27afd60445e5",
+      "name": "Aulas 1",
+      "slug": "uao-poi-aulas-1",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.353243,
+      "lng": -76.521736
+    },
+    {
+      "id": "534c5c5a-4cda-885f-aa1a-dded1ab7c307",
+      "name": "Aulas 1 - Oficinas",
+      "slug": "uao-poi-aulas-1-oficinas",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.353275,
+      "lng": -76.522079
+    },
+    {
+      "id": "69457ce0-34fb-8c9d-aaca-0493bf4a8c75",
+      "name": "Aulas 2",
+      "slug": "uao-poi-aulas-2",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.353484,
+      "lng": -76.521454
+    },
+    {
+      "id": "aa01b351-2cf4-8f63-af57-4446f1e78e7c",
+      "name": "Aulas 2 - Oficinas",
+      "slug": "uao-poi-aulas-2-oficinas",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.353551,
+      "lng": -76.521766
+    },
+    {
+      "id": "545dbb17-5cf3-895a-ab2a-c0d182d8b5af",
+      "name": "Aulas 3",
+      "slug": "uao-poi-aulas-3",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.353787,
+      "lng": -76.521143
+    },
+    {
+      "id": "7bec3e63-315f-885c-a34e-3a46d1e32d22",
+      "name": "Aulas 3 - Oficinas",
+      "slug": "uao-poi-aulas-3-oficinas",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.35383,
+      "lng": -76.5215
+    },
+    {
+      "id": "77290864-efba-8f60-a9c6-d7e4c4b88860",
+      "name": "Aulas 4",
+      "slug": "uao-poi-aulas-4",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.354047,
+      "lng": -76.520832
+    },
+    {
+      "id": "1b94f009-ab5a-8784-a62e-e04c9bc3e397",
+      "name": "Aulas 4 - Oficinas",
+      "slug": "uao-poi-aulas-4-oficinas",
+      "kind": "poi",
+      "category": "Aulas",
+      "lat": 3.354103,
+      "lng": -76.52117
+    },
+    {
+      "id": "df41a325-b1c1-8647-a643-2c8d2515ca7a",
+      "name": "UaoLabs",
+      "slug": "uao-poi-uaolabs",
+      "kind": "poi",
+      "category": "Uaolabs",
+      "lat": 3.353648,
+      "lng": -76.522364
+    },
+    {
+      "id": "f17d44ad-5b9c-8225-a456-75d3a988cf05",
+      "name": "UaoLabs - Lab prototipado",
+      "slug": "uao-poi-uaolabs-lab-prototipado",
+      "kind": "poi",
+      "category": "Uaolabs",
+      "lat": 3.354012,
+      "lng": -76.519891
+    },
+    {
+      "id": "2d8104eb-2eb0-8847-a40a-ff5a869760df",
+      "name": "Cafeterías",
+      "slug": "uao-poi-cafeterias",
+      "kind": "poi",
+      "category": "Bienestar Universitario",
+      "lat": 3.353495,
+      "lng": -76.520784
+    },
+    {
+      "id": "556db453-4556-8351-ab0e-1fe0f9db91bb",
+      "name": "Espacios de actividades Bienestar",
+      "slug": "uao-poi-espacios-de-actividades-bienestar",
+      "kind": "poi",
+      "category": "Bienestar Universitario",
+      "lat": 3.353217,
+      "lng": -76.520924
+    },
+    {
+      "id": "23da66e9-f6f9-8569-af98-c284b2a9992c",
+      "name": "Oficinas Bienestar",
+      "slug": "uao-poi-oficinas-bienestar",
+      "kind": "poi",
+      "category": "Bienestar Universitario",
+      "lat": 3.35315,
+      "lng": -76.520695
+    },
+    {
+      "id": "22c74896-9179-8c8e-a99e-2754148d62a0",
+      "name": "Agora",
+      "slug": "uao-poi-agora",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.353658,
+      "lng": -76.522079
+    },
+    {
+      "id": "82e8da99-0269-890b-a633-4ccbac73fe32",
+      "name": "Cancha de Baloncesto",
+      "slug": "uao-poi-cancha-de-baloncesto",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.353262,
+      "lng": -76.519934
+    },
+    {
+      "id": "ead88224-decd-8251-a09b-8562c1cf5085",
+      "name": "Cancha de Fútbol ",
+      "slug": "uao-poi-cancha-de-futbol",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.352718,
+      "lng": -76.521218
+    },
+    {
+      "id": "e5d8f96a-8647-8bc4-a20a-1dc9f86600e7",
+      "name": "Cancha de Fútbol de Salón",
+      "slug": "uao-poi-cancha-de-futbol-de-salon",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.353484,
+      "lng": -76.520175
+    },
+    {
+      "id": "24ced22a-a5dc-813e-a7b6-54162fd6222f",
+      "name": "Cancha de Fútbol Pequeña",
+      "slug": "uao-poi-cancha-de-futbol-pequena",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.353757,
+      "lng": -76.520082
+    },
+    {
+      "id": "7c0fc040-fe7a-86b7-a592-996d303d8038",
+      "name": "Centro de Actividad Física y Salud",
+      "slug": "uao-poi-centro-de-actividad-fisica-y-salud",
+      "kind": "poi",
+      "category": "Espacios Deportivos y Culturales",
+      "lat": 3.352732,
+      "lng": -76.520752
+    },
+    {
+      "id": "a35c3ffa-7669-8ca0-a1da-de30aaba6dc8",
+      "name": "Auditorio LILE",
+      "slug": "uao-poi-auditorio-lile",
+      "kind": "poi",
+      "category": "Auditorios",
+      "lat": 3.353632,
+      "lng": -76.522734
+    },
+    {
+      "id": "6b417941-5d60-89c7-a2e0-a929755b5632",
+      "name": "Auditorio QUINCHA",
+      "slug": "uao-poi-auditorio-quincha",
+      "kind": "poi",
+      "category": "Auditorios",
+      "lat": 3.353356,
+      "lng": -76.52272
+    },
+    {
+      "id": "98db8326-f3d9-806d-ad76-da1b5473c568",
+      "name": "Auditorio XEPIA",
+      "slug": "uao-poi-auditorio-xepia",
+      "kind": "poi",
+      "category": "Auditorios",
+      "lat": 3.353926,
+      "lng": -76.522745
+    },
+    {
+      "id": "96e3fa00-e1e4-8999-a48e-d33f26468746",
+      "name": "Auditorio YQUINDE",
+      "slug": "uao-poi-auditorio-yquinde",
+      "kind": "poi",
+      "category": "Auditorios",
+      "lat": 3.353353,
+      "lng": -76.522914
+    },
+    {
+      "id": "390fd5c6-73a7-8258-a356-8c056aa8bb5b",
+      "name": "PTAP",
+      "slug": "uao-poi-ptap",
+      "kind": "poi",
+      "category": "Plantas de Tratamiento",
+      "lat": 3.353803,
+      "lng": -76.520741
+    },
+    {
+      "id": "c512f289-63dd-8bf7-a928-0e4b28b1bafb",
+      "name": "PTAR",
+      "slug": "uao-poi-ptar",
+      "kind": "poi",
+      "category": "Plantas de Tratamiento",
+      "lat": 3.35402,
+      "lng": -76.520162
+    },
+    {
+      "id": "def246e4-ba46-85a9-a8b7-645eec2558d2",
+      "name": "Capilla del Campus - Oratorio",
+      "slug": "uao-poi-capilla-del-campus-oratorio",
+      "kind": "poi",
+      "category": "Otros",
+      "lat": 3.353551,
+      "lng": -76.521857
+    },
+    {
+      "id": "718d2aa4-9310-81c5-a0ae-6a4ee12df80a",
+      "name": "Enfermeria",
+      "slug": "uao-poi-enfermeria",
+      "kind": "poi",
+      "category": "Otros",
+      "lat": 3.353227,
+      "lng": -76.520781
+    },
+    {
+      "id": "b9c59b2c-5528-80c6-a483-15635db3ed9e",
+      "name": "Museo",
+      "slug": "uao-poi-museo",
+      "kind": "poi",
+      "category": "Otros",
+      "lat": 3.35331,
+      "lng": -76.522393
+    },
+    {
+      "id": "7b5f0fc9-924d-8651-af75-4b32fd6a26fc",
+      "name": "Nodo peatonal -76.5204872,3.3537467",
+      "slug": "uao-node-0e16bf74a1372cbd",
+      "kind": "node",
+      "lat": 3.3537467,
+      "lng": -76.5204872
+    },
+    {
+      "id": "72c51a5e-8e18-8e62-a31e-d593b2134f18",
+      "name": "Nodo peatonal -76.5205444,3.3537464",
+      "slug": "uao-node-f97d39171ab872f3",
+      "kind": "node",
+      "lat": 3.3537464,
+      "lng": -76.5205444
+    },
+    {
+      "id": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "name": "Nodo peatonal -76.5207072,3.3537478",
+      "slug": "uao-node-0fb9c8d80365c0ae",
+      "kind": "node",
+      "lat": 3.3537478,
+      "lng": -76.5207072
+    },
+    {
+      "id": "ca3094dc-02a2-8c5c-a096-7284f500f3d9",
+      "name": "Nodo peatonal -76.5207483,3.3537012",
+      "slug": "uao-node-4ee671a86f59d9d9",
+      "kind": "node",
+      "lat": 3.3537012,
+      "lng": -76.5207483
+    },
+    {
+      "id": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "name": "Nodo peatonal -76.5207493,3.3533870",
+      "slug": "uao-node-444f8103e0f85a6d",
+      "kind": "node",
+      "lat": 3.353387,
+      "lng": -76.5207493
+    },
+    {
+      "id": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "name": "Nodo peatonal -76.5207497,3.3532474",
+      "slug": "uao-node-0ce5e6c7a545afb1",
+      "kind": "node",
+      "lat": 3.3532474,
+      "lng": -76.5207497
+    },
+    {
+      "id": "21dff0f1-7cf5-8ba7-a98c-8c8702d79834",
+      "name": "Nodo peatonal -76.5208419,3.3536994",
+      "slug": "uao-node-fa34127969c6534c",
+      "kind": "node",
+      "lat": 3.3536994,
+      "lng": -76.5208419
+    },
+    {
+      "id": "2c29a1c0-2fe9-8371-a002-77c3cf41ed69",
+      "name": "Nodo peatonal -76.5208505,3.3538849",
+      "slug": "uao-node-f7d58b2c8a8bde4d",
+      "kind": "node",
+      "lat": 3.3538849,
+      "lng": -76.5208505
+    },
+    {
+      "id": "bf84c7f8-0dd5-8f69-ae2e-069fd1585340",
+      "name": "Nodo peatonal -76.5208533,3.3539453",
+      "slug": "uao-node-7aba7f4e7581ce70",
+      "kind": "node",
+      "lat": 3.3539453,
+      "lng": -76.5208533
+    },
+    {
+      "id": "683aa8ec-3880-833c-a8fb-44dbe1b6eea0",
+      "name": "Nodo peatonal -76.5208613,3.3536621",
+      "slug": "uao-node-f265484549363c4f",
+      "kind": "node",
+      "lat": 3.3536621,
+      "lng": -76.5208613
+    },
+    {
+      "id": "0eb770d6-a98b-83a0-aa60-033e94f93aad",
+      "name": "Nodo peatonal -76.5208945,3.3539447",
+      "slug": "uao-node-52d9d793c031c00e",
+      "kind": "node",
+      "lat": 3.3539447,
+      "lng": -76.5208945
+    },
+    {
+      "id": "d8bd7f84-4ff8-8c53-afa2-9099dfd738d4",
+      "name": "Nodo peatonal -76.5209033,3.3540104",
+      "slug": "uao-node-b658532ed1e80e04",
+      "kind": "node",
+      "lat": 3.3540104,
+      "lng": -76.5209033
+    },
+    {
+      "id": "2defe8f4-1801-8f5e-a3da-e3449b4e5628",
+      "name": "Nodo peatonal -76.5209462,3.3533872",
+      "slug": "uao-node-9dd017543bd05a36",
+      "kind": "node",
+      "lat": 3.3533872,
+      "lng": -76.5209462
+    },
+    {
+      "id": "6edd0312-8ad8-839c-a701-899c367eec4b",
+      "name": "Nodo peatonal -76.5209563,3.3533869",
+      "slug": "uao-node-798c67b3ea087dd2",
+      "kind": "node",
+      "lat": 3.3533869,
+      "lng": -76.5209563
+    },
+    {
+      "id": "2a2a99a5-0944-8358-a16a-87494d4a128a",
+      "name": "Nodo peatonal -76.5210022,3.3533856",
+      "slug": "uao-node-882418e5ce873aa1",
+      "kind": "node",
+      "lat": 3.3533856,
+      "lng": -76.5210022
+    },
+    {
+      "id": "fc1ed5a0-ff44-8f1a-ae13-aa58606d3562",
+      "name": "Nodo peatonal -76.5210814,3.3541932",
+      "slug": "uao-node-26e5f6cead956fb6",
+      "kind": "node",
+      "lat": 3.3541932,
+      "lng": -76.5210814
+    },
+    {
+      "id": "1518870d-5129-8459-a23c-47a70d7fd5e2",
+      "name": "Nodo peatonal -76.5210814,3.3542186",
+      "slug": "uao-node-5c17d73906e9670b",
+      "kind": "node",
+      "lat": 3.3542186,
+      "lng": -76.5210814
+    },
+    {
+      "id": "fd7c3ee7-2889-84af-afed-978cfffbb074",
+      "name": "Nodo peatonal -76.5210963,3.3532692",
+      "slug": "uao-node-b9ea7cb27d50079f",
+      "kind": "node",
+      "lat": 3.3532692,
+      "lng": -76.5210963
+    },
+    {
+      "id": "ff6e1188-14e5-8072-a4f4-a69cf4b1b563",
+      "name": "Nodo peatonal -76.5211023,3.3533559",
+      "slug": "uao-node-6b697712450f0468",
+      "kind": "node",
+      "lat": 3.3533559,
+      "lng": -76.5211023
+    },
+    {
+      "id": "3064de94-40a3-89b9-a684-d288e35409e6",
+      "name": "Nodo peatonal -76.5211045,3.3533827",
+      "slug": "uao-node-f00adb9693cc0675",
+      "kind": "node",
+      "lat": 3.3533827,
+      "lng": -76.5211045
+    },
+    {
+      "id": "680ac757-6b58-89e2-a7a7-725a36ad9cda",
+      "name": "Nodo peatonal -76.5211153,3.3532399",
+      "slug": "uao-node-c58d43e283c41de2",
+      "kind": "node",
+      "lat": 3.3532399,
+      "lng": -76.5211153
+    },
+    {
+      "id": "32a9ab3d-1503-889c-aa31-24748e210f0d",
+      "name": "Nodo peatonal -76.5211182,3.3541352",
+      "slug": "uao-node-e6bf6daa523013c9",
+      "kind": "node",
+      "lat": 3.3541352,
+      "lng": -76.5211182
+    },
+    {
+      "id": "0bf3d636-556c-86e6-ad50-8a0f35cf49ce",
+      "name": "Nodo peatonal -76.5211191,3.3536599",
+      "slug": "uao-node-b3b68a6a4cbfc7a8",
+      "kind": "node",
+      "lat": 3.3536599,
+      "lng": -76.5211191
+    },
+    {
+      "id": "de8a783f-2e0f-8542-a962-3b1c55a00b74",
+      "name": "Nodo peatonal -76.5211196,3.3540108",
+      "slug": "uao-node-adb4535c82d190dd",
+      "kind": "node",
+      "lat": 3.3540108,
+      "lng": -76.5211196
+    },
+    {
+      "id": "cbbe74a0-c28b-8390-aef1-cb544bf666e2",
+      "name": "Nodo peatonal -76.5211227,3.3532284",
+      "slug": "uao-node-c814aeb3613f93a6",
+      "kind": "node",
+      "lat": 3.3532284,
+      "lng": -76.5211227
+    },
+    {
+      "id": "452cce9a-cb0c-8046-a740-fdda4e1a0773",
+      "name": "Nodo peatonal -76.5211272,3.3533820",
+      "slug": "uao-node-89aecb2c9ce2eac6",
+      "kind": "node",
+      "lat": 3.353382,
+      "lng": -76.5211272
+    },
+    {
+      "id": "7602db5c-15e4-8db3-a474-f98fb9dff437",
+      "name": "Nodo peatonal -76.5211423,3.3542242",
+      "slug": "uao-node-7a3c95d3728cec08",
+      "kind": "node",
+      "lat": 3.3542242,
+      "lng": -76.5211423
+    },
+    {
+      "id": "154f00cf-0210-8eef-a3cc-f3499f76a79b",
+      "name": "Nodo peatonal -76.5211819,3.3542228",
+      "slug": "uao-node-d429101f7b62750b",
+      "kind": "node",
+      "lat": 3.3542228,
+      "lng": -76.5211819
+    },
+    {
+      "id": "bc0fbda3-61f2-89a9-ab61-873ada4aaa51",
+      "name": "Nodo peatonal -76.5211985,3.3531399",
+      "slug": "uao-node-ac6f2ac2842ef2c5",
+      "kind": "node",
+      "lat": 3.3531399,
+      "lng": -76.5211985
+    },
+    {
+      "id": "bd49b658-2e42-8181-a0d7-71f6cd13d186",
+      "name": "Nodo peatonal -76.5212043,3.3536591",
+      "slug": "uao-node-044c03177870da72",
+      "kind": "node",
+      "lat": 3.3536591,
+      "lng": -76.5212043
+    },
+    {
+      "id": "6775a667-d685-8362-ac49-fe6451e0ec8a",
+      "name": "Nodo peatonal -76.5212058,3.3537686",
+      "slug": "uao-node-2f9f1930cc351618",
+      "kind": "node",
+      "lat": 3.3537686,
+      "lng": -76.5212058
+    },
+    {
+      "id": "f44d3f23-3d55-875c-a1bb-470c478bf713",
+      "name": "Nodo peatonal -76.5212131,3.3542059",
+      "slug": "uao-node-7ed35013d80f0ffe",
+      "kind": "node",
+      "lat": 3.3542059,
+      "lng": -76.5212131
+    },
+    {
+      "id": "4f6edfac-9e97-86f6-ad3e-20551a0f68b4",
+      "name": "Nodo peatonal -76.5212624,3.3531051",
+      "slug": "uao-node-1e7693b7ed8d97e6",
+      "kind": "node",
+      "lat": 3.3531051,
+      "lng": -76.5212624
+    },
+    {
+      "id": "2cec817b-2e19-8d3a-adab-c5784b4564f8",
+      "name": "Nodo peatonal -76.5212796,3.3541748",
+      "slug": "uao-node-18b440199f80fe4f",
+      "kind": "node",
+      "lat": 3.3541748,
+      "lng": -76.5212796
+    },
+    {
+      "id": "e52a10a8-f648-829b-a080-4c729cabfca3",
+      "name": "Nodo peatonal -76.5213136,3.3541437",
+      "slug": "uao-node-316b8302b3f54c56",
+      "kind": "node",
+      "lat": 3.3541437,
+      "lng": -76.5213136
+    },
+    {
+      "id": "edfdbfa2-4c1c-8f9f-abcf-9a28126001fe",
+      "name": "Nodo peatonal -76.5213169,3.3531008",
+      "slug": "uao-node-b1ec739bd4c8924c",
+      "kind": "node",
+      "lat": 3.3531008,
+      "lng": -76.5213169
+    },
+    {
+      "id": "bfb3f09e-e9da-89f4-a081-7e04a44906a6",
+      "name": "Nodo peatonal -76.5213546,3.3541055",
+      "slug": "uao-node-8288a35ff7ffa3bb",
+      "kind": "node",
+      "lat": 3.3541055,
+      "lng": -76.5213546
+    },
+    {
+      "id": "541a981c-3558-8b3a-a108-a5d9907de2e9",
+      "name": "Nodo peatonal -76.5213801,3.3540829",
+      "slug": "uao-node-1dcf2387259f2a57",
+      "kind": "node",
+      "lat": 3.3540829,
+      "lng": -76.5213801
+    },
+    {
+      "id": "1dbf706b-dd05-896d-a22b-c6996d653aa8",
+      "name": "Nodo peatonal -76.5214198,3.3540547",
+      "slug": "uao-node-6e7f4c58b5a95e5e",
+      "kind": "node",
+      "lat": 3.3540547,
+      "lng": -76.5214198
+    },
+    {
+      "id": "89a7c897-0143-81f5-ad0c-a6648a8c70b6",
+      "name": "Nodo peatonal -76.5214299,3.3539368",
+      "slug": "uao-node-6b27b0044c3b1b79",
+      "kind": "node",
+      "lat": 3.3539368,
+      "lng": -76.5214299
+    },
+    {
+      "id": "a434548f-c148-8436-a8a5-d239e1e12b75",
+      "name": "Nodo peatonal -76.5214323,3.3537715",
+      "slug": "uao-node-2a51292735f98bea",
+      "kind": "node",
+      "lat": 3.3537715,
+      "lng": -76.5214323
+    },
+    {
+      "id": "f19f2c7e-43bc-8e14-a98d-ab835ddefbf7",
+      "name": "Nodo peatonal -76.5214371,3.3530772",
+      "slug": "uao-node-ecbbe8b2f1471ddf",
+      "kind": "node",
+      "lat": 3.3530772,
+      "lng": -76.5214371
+    },
+    {
+      "id": "3a50e23d-8d93-8be7-a1a2-eb1a58ab4463",
+      "name": "Nodo peatonal -76.5214463,3.3530753",
+      "slug": "uao-node-ca7fe10595b39aaf",
+      "kind": "node",
+      "lat": 3.3530753,
+      "lng": -76.5214463
+    },
+    {
+      "id": "a7680e41-ec29-8b17-a00a-bb4188faac7a",
+      "name": "Nodo peatonal -76.5215851,3.3534555",
+      "slug": "uao-node-e51e4fbd210a3ef9",
+      "kind": "node",
+      "lat": 3.3534555,
+      "lng": -76.5215851
+    },
+    {
+      "id": "1d46b250-9d20-8249-a34d-d17289c16c57",
+      "name": "Nodo peatonal -76.5215860,3.3533771",
+      "slug": "uao-node-0dce0907a608ed93",
+      "kind": "node",
+      "lat": 3.3533771,
+      "lng": -76.521586
+    },
+    {
+      "id": "ae97bb8d-4f67-8bc6-a633-d4f3796618a8",
+      "name": "Nodo peatonal -76.5215995,3.3538491",
+      "slug": "uao-node-5be5c85776f380aa",
+      "kind": "node",
+      "lat": 3.3538491,
+      "lng": -76.5215995
+    },
+    {
+      "id": "21e6946c-c998-8af3-affb-ec3422539cda",
+      "name": "Nodo peatonal -76.5216180,3.3538292",
+      "slug": "uao-node-6411a90192a0306e",
+      "kind": "node",
+      "lat": 3.3538292,
+      "lng": -76.521618
+    },
+    {
+      "id": "c118b124-8d31-8014-afac-11488dc8452e",
+      "name": "Nodo peatonal -76.5216549,3.3536553",
+      "slug": "uao-node-bdbb7a2f39749759",
+      "kind": "node",
+      "lat": 3.3536553,
+      "lng": -76.5216549
+    },
+    {
+      "id": "6ec1cffa-4983-8076-aeb7-f17b62eef3e2",
+      "name": "Nodo peatonal -76.5217375,3.3536241",
+      "slug": "uao-node-ae159c2a0fa33363",
+      "kind": "node",
+      "lat": 3.3536241,
+      "lng": -76.5217375
+    },
+    {
+      "id": "38292107-fb9c-8612-afae-894fbd652c35",
+      "name": "Nodo peatonal -76.5217449,3.3536191",
+      "slug": "uao-node-b771b00dd76da2d3",
+      "kind": "node",
+      "lat": 3.3536191,
+      "lng": -76.5217449
+    },
+    {
+      "id": "f5e6e2c5-a9b5-8f0e-ac09-d1621e9fd02c",
+      "name": "Nodo peatonal -76.5217452,3.3534666",
+      "slug": "uao-node-d67e5ad1aadfce72",
+      "kind": "node",
+      "lat": 3.3534666,
+      "lng": -76.5217452
+    },
+    {
+      "id": "128edf6c-3098-8e80-acce-2f932f20837b",
+      "name": "Nodo peatonal -76.5217630,3.3536731",
+      "slug": "uao-node-f872394171e41efe",
+      "kind": "node",
+      "lat": 3.3536731,
+      "lng": -76.521763
+    },
+    {
+      "id": "847aeec5-5c2d-8305-a609-8e0804e8f844",
+      "name": "Nodo peatonal -76.5219010,3.3534630",
+      "slug": "uao-node-f779c55cc505dbf6",
+      "kind": "node",
+      "lat": 3.353463,
+      "lng": -76.521901
+    },
+    {
+      "id": "078ca7df-1546-8bd6-a352-b5962c18e9cf",
+      "name": "Nodo peatonal -76.5219053,3.3530745",
+      "slug": "uao-node-366914d154567dd7",
+      "kind": "node",
+      "lat": 3.3530745,
+      "lng": -76.5219053
+    },
+    {
+      "id": "54689a4a-9c2c-83e7-a851-b64670e1b039",
+      "name": "Nodo peatonal -76.5219104,3.3531238",
+      "slug": "uao-node-50f73b5070067585",
+      "kind": "node",
+      "lat": 3.3531238,
+      "lng": -76.5219104
+    },
+    {
+      "id": "1107fe7e-dcef-8d13-a4f8-1124acb59e07",
+      "name": "Nodo peatonal -76.5219155,3.3535063",
+      "slug": "uao-node-e41bebbbe3d9a866",
+      "kind": "node",
+      "lat": 3.3535063,
+      "lng": -76.5219155
+    },
+    {
+      "id": "1845597e-ed60-8c94-ac3b-1db31467d888",
+      "name": "Nodo peatonal -76.5219198,3.3534264",
+      "slug": "uao-node-ed5fe39698ee818c",
+      "kind": "node",
+      "lat": 3.3534264,
+      "lng": -76.5219198
+    },
+    {
+      "id": "a63306a0-4d52-84e7-af0c-aa2b04eba128",
+      "name": "Nodo peatonal -76.5219623,3.3533856",
+      "slug": "uao-node-b0d424acd4a0309e",
+      "kind": "node",
+      "lat": 3.3533856,
+      "lng": -76.5219623
+    },
+    {
+      "id": "70061f6a-525f-8c84-a8d9-149aa068e178",
+      "name": "Nodo peatonal -76.5219734,3.3531893",
+      "slug": "uao-node-a1c287a049fff005",
+      "kind": "node",
+      "lat": 3.3531893,
+      "lng": -76.5219734
+    },
+    {
+      "id": "5981107f-40bd-8094-a951-ce557a859cb3",
+      "name": "Nodo peatonal -76.5219743,3.3531272",
+      "slug": "uao-node-88e9b023b876b127",
+      "kind": "node",
+      "lat": 3.3531272,
+      "lng": -76.5219743
+    },
+    {
+      "id": "c9d12619-4ed9-8389-a2d7-d0eb2535cda2",
+      "name": "Nodo peatonal -76.5219743,3.3533729",
+      "slug": "uao-node-b7793e43781cea8a",
+      "kind": "node",
+      "lat": 3.3533729,
+      "lng": -76.5219743
+    },
+    {
+      "id": "050dd134-be48-8f3f-aa9d-2f76b55c1c0c",
+      "name": "Nodo peatonal -76.5219874,3.3535069",
+      "slug": "uao-node-f7b66d8402b54431",
+      "kind": "node",
+      "lat": 3.3535069,
+      "lng": -76.5219874
+    },
+    {
+      "id": "1bab198c-3ea3-87bb-ad63-1472e4cfc62e",
+      "name": "Nodo peatonal -76.5219930,3.3538379",
+      "slug": "uao-node-ba4d6ae58c510655",
+      "kind": "node",
+      "lat": 3.3538379,
+      "lng": -76.521993
+    },
+    {
+      "id": "600ae505-2b54-8d71-a990-6f37a081df49",
+      "name": "Nodo peatonal -76.5220041,3.3531876",
+      "slug": "uao-node-1cf144c8a52cce86",
+      "kind": "node",
+      "lat": 3.3531876,
+      "lng": -76.5220041
+    },
+    {
+      "id": "90904500-8d25-8557-a068-db42c201e412",
+      "name": "Nodo peatonal -76.5220824,3.3531876",
+      "slug": "uao-node-58facfc6398ad8f9",
+      "kind": "node",
+      "lat": 3.3531876,
+      "lng": -76.5220824
+    },
+    {
+      "id": "dbd9c5fa-b4d0-820e-ad1f-ad1b24fbe091",
+      "name": "Nodo peatonal -76.5220858,3.3533754",
+      "slug": "uao-node-8dadfeb902c41b5c",
+      "kind": "node",
+      "lat": 3.3533754,
+      "lng": -76.5220858
+    },
+    {
+      "id": "66cb7f1b-a75d-820e-a4fc-2a96db435378",
+      "name": "Nodo peatonal -76.5222391,3.3535055",
+      "slug": "uao-node-d7669f5310233bfd",
+      "kind": "node",
+      "lat": 3.3535055,
+      "lng": -76.5222391
+    },
+    {
+      "id": "4f763ffd-283e-8535-a0f6-5ce8e9378699",
+      "name": "Nodo peatonal -76.5222399,3.3536339",
+      "slug": "uao-node-60397d7f64af5fe9",
+      "kind": "node",
+      "lat": 3.3536339,
+      "lng": -76.5222399
+    },
+    {
+      "id": "fd8445b7-c54c-8ab4-a860-4916f2d0b906",
+      "name": "Nodo peatonal -76.5222510,3.3537180",
+      "slug": "uao-node-0d3b85566445f944",
+      "kind": "node",
+      "lat": 3.353718,
+      "lng": -76.522251
+    },
+    {
+      "id": "bf73e897-57bb-8c2c-ae96-203847bc6d5f",
+      "name": "Nodo peatonal -76.5222569,3.3538318",
+      "slug": "uao-node-56a9e7d875434683",
+      "kind": "node",
+      "lat": 3.3538318,
+      "lng": -76.5222569
+    },
+    {
+      "id": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "name": "Nodo peatonal -76.5227293,3.3535027",
+      "slug": "uao-node-60ba72d2175ff0d0",
+      "kind": "node",
+      "lat": 3.3535027,
+      "lng": -76.5227293
+    },
+    {
+      "id": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "name": "Nodo peatonal -76.5227296,3.3538209",
+      "slug": "uao-node-69f92edd7a111d42",
+      "kind": "node",
+      "lat": 3.3538209,
+      "lng": -76.5227296
+    },
+    {
+      "id": "edfdde62-efbc-81bd-a24a-fd447e3e8e10",
+      "name": "Nodo peatonal -76.5227300,3.3536565",
+      "slug": "uao-node-849be65fab9b6a6a",
+      "kind": "node",
+      "lat": 3.3536565,
+      "lng": -76.52273
+    },
+    {
+      "id": "f76d4908-0f62-80d3-a9fa-6d62ead8e11a",
+      "name": "Nodo peatonal -76.5231689,3.3536522",
+      "slug": "uao-node-36b9759f6263c2b1",
+      "kind": "node",
+      "lat": 3.3536522,
+      "lng": -76.5231689
+    }
+  ],
+  "paths": [
+    {
+      "id": "69740021-a2e3-8dc2-af7e-e18bb443442e",
+      "from": "edfdde62-efbc-81bd-a24a-fd447e3e8e10",
+      "to": "f76d4908-0f62-80d3-a9fa-6d62ead8e11a",
+      "weight": 48.722,
+      "source": "osm",
+      "sourceRef": "way/1357101452",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3536565,
+          -76.52273
+        ],
+        [
+          3.3536522,
+          -76.5231689
+        ]
+      ]
+    },
+    {
+      "id": "a50d8297-87ff-8021-a3cd-406e469e1edb",
+      "from": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "to": "edfdde62-efbc-81bd-a24a-fd447e3e8e10",
+      "weight": 17.102,
+      "source": "osm",
+      "sourceRef": "way/1357101452",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3535027,
+          -76.5227293
+        ],
+        [
+          3.3536565,
+          -76.52273
+        ]
+      ]
+    },
+    {
+      "id": "2cda64fa-1af2-8a94-ac43-0eca499e328f",
+      "from": "66cb7f1b-a75d-820e-a4fc-2a96db435378",
+      "to": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "weight": 54.415,
+      "source": "osm",
+      "sourceRef": "way/1357101452",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3535055,
+          -76.5222391
+        ],
+        [
+          3.3535027,
+          -76.5227293
+        ]
+      ]
+    },
+    {
+      "id": "7d2e27b9-513f-8217-a1c1-39fcbf6e71b7",
+      "from": "050dd134-be48-8f3f-aa9d-2f76b55c1c0c",
+      "to": "66cb7f1b-a75d-820e-a4fc-2a96db435378",
+      "weight": 27.94,
+      "source": "osm",
+      "sourceRef": "way/1357101452",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3535069,
+          -76.5219874
+        ],
+        [
+          3.3535055,
+          -76.5222391
+        ]
+      ]
+    },
+    {
+      "id": "f33029a0-7628-86ab-ada5-e9b389c3f019",
+      "from": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "to": "edfdde62-efbc-81bd-a24a-fd447e3e8e10",
+      "weight": 18.28,
+      "source": "osm",
+      "sourceRef": "way/1357101453",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3538209,
+          -76.5227296
+        ],
+        [
+          3.3536565,
+          -76.52273
+        ]
+      ]
+    },
+    {
+      "id": "6acbdc5c-08ef-8c9a-a983-570a88b6598c",
+      "from": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "to": "bf73e897-57bb-8c2c-ae96-203847bc6d5f",
+      "weight": 52.486,
+      "source": "osm",
+      "sourceRef": "way/1357101453",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3538209,
+          -76.5227296
+        ],
+        [
+          3.3538318,
+          -76.5222569
+        ]
+      ]
+    },
+    {
+      "id": "5b22f10b-a1a5-8563-a07b-ff2b4c2a0099",
+      "from": "1bab198c-3ea3-87bb-ad63-1472e4cfc62e",
+      "to": "bf73e897-57bb-8c2c-ae96-203847bc6d5f",
+      "weight": 29.302,
+      "source": "osm",
+      "sourceRef": "way/1357101453",
+      "highway": "footway",
+      "layer": "1",
+      "coordinates": [
+        [
+          3.3538379,
+          -76.521993
+        ],
+        [
+          3.3538318,
+          -76.5222569
+        ]
+      ]
+    },
+    {
+      "id": "7c629342-dc6c-8e82-a7f6-61ae5314ad2d",
+      "from": "4f763ffd-283e-8535-a0f6-5ce8e9378699",
+      "to": "66cb7f1b-a75d-820e-a4fc-2a96db435378",
+      "weight": 14.278,
+      "source": "osm",
+      "sourceRef": "way/1357101454",
+      "highway": "steps",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536339,
+          -76.5222399
+        ],
+        [
+          3.3535055,
+          -76.5222391
+        ]
+      ]
+    },
+    {
+      "id": "73d33afc-eb78-86c0-aab0-b70a1875d6d7",
+      "from": "bf73e897-57bb-8c2c-ae96-203847bc6d5f",
+      "to": "fd8445b7-c54c-8ab4-a860-4916f2d0b906",
+      "weight": 12.671,
+      "source": "osm",
+      "sourceRef": "way/1357101455",
+      "highway": "steps",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3538318,
+          -76.5222569
+        ],
+        [
+          3.353718,
+          -76.522251
+        ]
+      ]
+    },
+    {
+      "id": "d1b08eb2-9bb5-8d4a-a589-1a535e319219",
+      "from": "4f763ffd-283e-8535-a0f6-5ce8e9378699",
+      "to": "fd8445b7-c54c-8ab4-a860-4916f2d0b906",
+      "weight": 9.432,
+      "source": "osm",
+      "sourceRef": "way/1357101456",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536339,
+          -76.5222399
+        ],
+        [
+          3.353718,
+          -76.522251
+        ]
+      ]
+    },
+    {
+      "id": "7772e69f-a93b-8ff0-a34b-93b930784ba5",
+      "from": "050dd134-be48-8f3f-aa9d-2f76b55c1c0c",
+      "to": "1107fe7e-dcef-8d13-a4f8-1124acb59e07",
+      "weight": 7.982,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3535069,
+          -76.5219874
+        ],
+        [
+          3.3535063,
+          -76.5219155
+        ]
+      ]
+    },
+    {
+      "id": "a3d92af3-0b42-8505-a0b3-2b3b04b8ecab",
+      "from": "1107fe7e-dcef-8d13-a4f8-1124acb59e07",
+      "to": "847aeec5-5c2d-8305-a609-8e0804e8f844",
+      "weight": 5.077,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3535063,
+          -76.5219155
+        ],
+        [
+          3.353463,
+          -76.521901
+        ]
+      ]
+    },
+    {
+      "id": "1ff8a720-a6a8-8857-afe8-87b4c8f9969e",
+      "from": "1845597e-ed60-8c94-ac3b-1db31467d888",
+      "to": "847aeec5-5c2d-8305-a609-8e0804e8f844",
+      "weight": 4.574,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3534264,
+          -76.5219198
+        ],
+        [
+          3.353463,
+          -76.521901
+        ]
+      ]
+    },
+    {
+      "id": "803fc7af-1a50-828b-ad58-e34f474401e5",
+      "from": "1845597e-ed60-8c94-ac3b-1db31467d888",
+      "to": "a63306a0-4d52-84e7-af0c-aa2b04eba128",
+      "weight": 6.545,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3534264,
+          -76.5219198
+        ],
+        [
+          3.3533856,
+          -76.5219623
+        ]
+      ]
+    },
+    {
+      "id": "e85ded23-4dd7-8140-a0f9-e0dd562450db",
+      "from": "a63306a0-4d52-84e7-af0c-aa2b04eba128",
+      "to": "c9d12619-4ed9-8389-a2d7-d0eb2535cda2",
+      "weight": 1.941,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3533856,
+          -76.5219623
+        ],
+        [
+          3.3533729,
+          -76.5219743
+        ]
+      ]
+    },
+    {
+      "id": "e66888c4-b65a-8f34-af76-74d32334408c",
+      "from": "c9d12619-4ed9-8389-a2d7-d0eb2535cda2",
+      "to": "dbd9c5fa-b4d0-820e-ad1f-ad1b24fbe091",
+      "weight": 12.38,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3533729,
+          -76.5219743
+        ],
+        [
+          3.3533754,
+          -76.5220858
+        ]
+      ]
+    },
+    {
+      "id": "1e9b1b19-8fa8-8283-a314-518f53e534a1",
+      "from": "90904500-8d25-8557-a068-db42c201e412",
+      "to": "dbd9c5fa-b4d0-820e-ad1f-ad1b24fbe091",
+      "weight": 20.886,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531876,
+          -76.5220824
+        ],
+        [
+          3.3533754,
+          -76.5220858
+        ]
+      ]
+    },
+    {
+      "id": "1e60a1b5-dc25-82f6-a581-326526e3fb07",
+      "from": "600ae505-2b54-8d71-a990-6f37a081df49",
+      "to": "90904500-8d25-8557-a068-db42c201e412",
+      "weight": 8.692,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531876,
+          -76.5220041
+        ],
+        [
+          3.3531876,
+          -76.5220824
+        ]
+      ]
+    },
+    {
+      "id": "12d1e823-304c-8345-af37-dad476c09860",
+      "from": "600ae505-2b54-8d71-a990-6f37a081df49",
+      "to": "70061f6a-525f-8c84-a8d9-149aa068e178",
+      "weight": 3.413,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531876,
+          -76.5220041
+        ],
+        [
+          3.3531893,
+          -76.5219734
+        ]
+      ]
+    },
+    {
+      "id": "78575fc8-5cae-8ef1-a2db-444e33374c88",
+      "from": "5981107f-40bd-8094-a951-ce557a859cb3",
+      "to": "70061f6a-525f-8c84-a8d9-149aa068e178",
+      "weight": 6.906,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531272,
+          -76.5219743
+        ],
+        [
+          3.3531893,
+          -76.5219734
+        ]
+      ]
+    },
+    {
+      "id": "0e16e7c5-bfea-862b-a706-40ea310c6670",
+      "from": "54689a4a-9c2c-83e7-a851-b64670e1b039",
+      "to": "5981107f-40bd-8094-a951-ce557a859cb3",
+      "weight": 7.103,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531238,
+          -76.5219104
+        ],
+        [
+          3.3531272,
+          -76.5219743
+        ]
+      ]
+    },
+    {
+      "id": "6e2f5305-e91c-8563-a13d-9fb63ba2fc7d",
+      "from": "078ca7df-1546-8bd6-a352-b5962c18e9cf",
+      "to": "54689a4a-9c2c-83e7-a851-b64670e1b039",
+      "weight": 5.511,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3530745,
+          -76.5219053
+        ],
+        [
+          3.3531238,
+          -76.5219104
+        ]
+      ]
+    },
+    {
+      "id": "37957098-a81b-8d8c-ad33-ffac1fe4c931",
+      "from": "078ca7df-1546-8bd6-a352-b5962c18e9cf",
+      "to": "3a50e23d-8d93-8be7-a1a2-eb1a58ab4463",
+      "weight": 50.951,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3530745,
+          -76.5219053
+        ],
+        [
+          3.3530753,
+          -76.5214463
+        ]
+      ]
+    },
+    {
+      "id": "13c97f4e-6615-8858-ac4c-0a431af5c40d",
+      "from": "3a50e23d-8d93-8be7-a1a2-eb1a58ab4463",
+      "to": "f19f2c7e-43bc-8e14-a98d-ab835ddefbf7",
+      "weight": 1.043,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3530753,
+          -76.5214463
+        ],
+        [
+          3.3530772,
+          -76.5214371
+        ]
+      ]
+    },
+    {
+      "id": "e0846115-b54d-83bb-a210-01da38a5efce",
+      "from": "edfdbfa2-4c1c-8f9f-abcf-9a28126001fe",
+      "to": "f19f2c7e-43bc-8e14-a98d-ab835ddefbf7",
+      "weight": 13.598,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531008,
+          -76.5213169
+        ],
+        [
+          3.3530772,
+          -76.5214371
+        ]
+      ]
+    },
+    {
+      "id": "40c16640-58f2-8778-a8f4-4c2e47fe6e28",
+      "from": "4f6edfac-9e97-86f6-ad3e-20551a0f68b4",
+      "to": "edfdbfa2-4c1c-8f9f-abcf-9a28126001fe",
+      "weight": 6.069,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531051,
+          -76.5212624
+        ],
+        [
+          3.3531008,
+          -76.5213169
+        ]
+      ]
+    },
+    {
+      "id": "6dd38643-504a-8aa1-a454-0de77a453260",
+      "from": "4f6edfac-9e97-86f6-ad3e-20551a0f68b4",
+      "to": "bc0fbda3-61f2-89a9-ab61-873ada4aaa51",
+      "weight": 8.08,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531051,
+          -76.5212624
+        ],
+        [
+          3.3531399,
+          -76.5211985
+        ]
+      ]
+    },
+    {
+      "id": "9f803791-3723-805b-acdb-7bf5bbdb0283",
+      "from": "bc0fbda3-61f2-89a9-ab61-873ada4aaa51",
+      "to": "cbbe74a0-c28b-8390-aef1-cb544bf666e2",
+      "weight": 12.948,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3531399,
+          -76.5211985
+        ],
+        [
+          3.3532284,
+          -76.5211227
+        ]
+      ]
+    },
+    {
+      "id": "975a5e6b-1ef0-8791-a4e0-f9cb56529278",
+      "from": "680ac757-6b58-89e2-a7a7-725a36ad9cda",
+      "to": "cbbe74a0-c28b-8390-aef1-cb544bf666e2",
+      "weight": 1.52,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3532399,
+          -76.5211153
+        ],
+        [
+          3.3532284,
+          -76.5211227
+        ]
+      ]
+    },
+    {
+      "id": "2d81dcf2-8937-8870-ab72-0f3037068bdc",
+      "from": "680ac757-6b58-89e2-a7a7-725a36ad9cda",
+      "to": "fd7c3ee7-2889-84af-afed-978cfffbb074",
+      "weight": 3.881,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3532399,
+          -76.5211153
+        ],
+        [
+          3.3532692,
+          -76.5210963
+        ]
+      ]
+    },
+    {
+      "id": "beb479c4-ce23-8f93-afbb-83b682fc1184",
+      "from": "fd7c3ee7-2889-84af-afed-978cfffbb074",
+      "to": "ff6e1188-14e5-8072-a4f4-a69cf4b1b563",
+      "weight": 9.664,
+      "source": "osm",
+      "sourceRef": "way/1357101457",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3532692,
+          -76.5210963
+        ],
+        [
+          3.3533559,
+          -76.5211023
+        ]
+      ]
+    },
+    {
+      "id": "97b41f76-a62d-8d5e-a134-3fd1650b8eeb",
+      "from": "1d46b250-9d20-8249-a34d-d17289c16c57",
+      "to": "c9d12619-4ed9-8389-a2d7-d0eb2535cda2",
+      "weight": 43.106,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533771,
+          -76.521586
+        ],
+        [
+          3.3533729,
+          -76.5219743
+        ]
+      ]
+    },
+    {
+      "id": "0b42f375-1a8f-8572-a4f2-30dc014dc48c",
+      "from": "1d46b250-9d20-8249-a34d-d17289c16c57",
+      "to": "452cce9a-cb0c-8046-a740-fdda4e1a0773",
+      "weight": 50.932,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533771,
+          -76.521586
+        ],
+        [
+          3.353382,
+          -76.5211272
+        ]
+      ]
+    },
+    {
+      "id": "728e7ada-4378-81a8-a6a7-20c1bbd1da6a",
+      "from": "3064de94-40a3-89b9-a684-d288e35409e6",
+      "to": "452cce9a-cb0c-8046-a740-fdda4e1a0773",
+      "weight": 2.521,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533827,
+          -76.5211045
+        ],
+        [
+          3.353382,
+          -76.5211272
+        ]
+      ]
+    },
+    {
+      "id": "ef899b62-a9cd-879b-aaae-aed9fbca443d",
+      "from": "2a2a99a5-0944-8358-a16a-87494d4a128a",
+      "to": "3064de94-40a3-89b9-a684-d288e35409e6",
+      "weight": 11.36,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533856,
+          -76.5210022
+        ],
+        [
+          3.3533827,
+          -76.5211045
+        ]
+      ]
+    },
+    {
+      "id": "84c760bd-3be3-806b-ad63-b7f00169854e",
+      "from": "2a2a99a5-0944-8358-a16a-87494d4a128a",
+      "to": "6edd0312-8ad8-839c-a701-899c367eec4b",
+      "weight": 5.097,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533856,
+          -76.5210022
+        ],
+        [
+          3.3533869,
+          -76.5209563
+        ]
+      ]
+    },
+    {
+      "id": "2cb1895a-7ac1-8f64-a7d7-f4f5dc8fcb31",
+      "from": "2defe8f4-1801-8f5e-a3da-e3449b4e5628",
+      "to": "6edd0312-8ad8-839c-a701-899c367eec4b",
+      "weight": 1.122,
+      "source": "osm",
+      "sourceRef": "way/1357101458",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533872,
+          -76.5209462
+        ],
+        [
+          3.3533869,
+          -76.5209563
+        ]
+      ]
+    },
+    {
+      "id": "e50cc8ee-347c-8aee-a6c9-92ddc52cd178",
+      "from": "1107fe7e-dcef-8d13-a4f8-1124acb59e07",
+      "to": "38292107-fb9c-8612-afae-894fbd652c35",
+      "weight": 22.714,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3535063,
+          -76.5219155
+        ],
+        [
+          3.3536191,
+          -76.5217449
+        ]
+      ]
+    },
+    {
+      "id": "241fd827-4f43-851c-a01d-4e4dc0760199",
+      "from": "38292107-fb9c-8612-afae-894fbd652c35",
+      "to": "6ec1cffa-4983-8076-aeb7-f17b62eef3e2",
+      "weight": 0.992,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536191,
+          -76.5217449
+        ],
+        [
+          3.3536241,
+          -76.5217375
+        ]
+      ]
+    },
+    {
+      "id": "3f0ce16d-caed-896b-a17e-f3bd03806822",
+      "from": "6ec1cffa-4983-8076-aeb7-f17b62eef3e2",
+      "to": "c118b124-8d31-8014-afac-11488dc8452e",
+      "weight": 9.803,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536241,
+          -76.5217375
+        ],
+        [
+          3.3536553,
+          -76.5216549
+        ]
+      ]
+    },
+    {
+      "id": "aaeba6ab-f5fc-8049-a86a-a05ea9bfbf4b",
+      "from": "bd49b658-2e42-8181-a0d7-71f6cd13d186",
+      "to": "c118b124-8d31-8014-afac-11488dc8452e",
+      "weight": 50.02,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536591,
+          -76.5212043
+        ],
+        [
+          3.3536553,
+          -76.5216549
+        ]
+      ]
+    },
+    {
+      "id": "ecf1cf88-7e61-83dd-af56-662f60c48ad8",
+      "from": "0bf3d636-556c-86e6-ad50-8a0f35cf49ce",
+      "to": "bd49b658-2e42-8181-a0d7-71f6cd13d186",
+      "weight": 9.458,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536599,
+          -76.5211191
+        ],
+        [
+          3.3536591,
+          -76.5212043
+        ]
+      ]
+    },
+    {
+      "id": "438ac958-ac9c-82ee-a900-ea19cb362e74",
+      "from": "0bf3d636-556c-86e6-ad50-8a0f35cf49ce",
+      "to": "683aa8ec-3880-833c-a8fb-44dbe1b6eea0",
+      "weight": 28.618,
+      "source": "osm",
+      "sourceRef": "way/1357101459",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536599,
+          -76.5211191
+        ],
+        [
+          3.3536621,
+          -76.5208613
+        ]
+      ]
+    },
+    {
+      "id": "c513e91c-9fe5-8dbd-a02c-856dab6ec433",
+      "from": "38292107-fb9c-8612-afae-894fbd652c35",
+      "to": "f5e6e2c5-a9b5-8f0e-ac09-d1621e9fd02c",
+      "weight": 16.957,
+      "source": "osm",
+      "sourceRef": "way/1357101460",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536191,
+          -76.5217449
+        ],
+        [
+          3.3534666,
+          -76.5217452
+        ]
+      ]
+    },
+    {
+      "id": "a971e223-1de5-8d8e-aef4-5e8016f629be",
+      "from": "a7680e41-ec29-8b17-a00a-bb4188faac7a",
+      "to": "f5e6e2c5-a9b5-8f0e-ac09-d1621e9fd02c",
+      "weight": 17.815,
+      "source": "osm",
+      "sourceRef": "way/1357101460",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3534555,
+          -76.5215851
+        ],
+        [
+          3.3534666,
+          -76.5217452
+        ]
+      ]
+    },
+    {
+      "id": "1f2ad296-158c-89f4-a27c-b2a9a5e45cd1",
+      "from": "1d46b250-9d20-8249-a34d-d17289c16c57",
+      "to": "a7680e41-ec29-8b17-a00a-bb4188faac7a",
+      "weight": 8.718,
+      "source": "osm",
+      "sourceRef": "way/1357101460",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3533771,
+          -76.521586
+        ],
+        [
+          3.3534555,
+          -76.5215851
+        ]
+      ]
+    },
+    {
+      "id": "200aff9f-f54c-86e3-a1be-40108735a055",
+      "from": "1bab198c-3ea3-87bb-ad63-1472e4cfc62e",
+      "to": "ae97bb8d-4f67-8bc6-a633-d4f3796618a8",
+      "weight": 43.698,
+      "source": "osm",
+      "sourceRef": "way/1357101461",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3538379,
+          -76.521993
+        ],
+        [
+          3.3538491,
+          -76.5215995
+        ]
+      ]
+    },
+    {
+      "id": "4c0a2e50-5931-8b3d-a933-6a2b50b0e9f7",
+      "from": "21e6946c-c998-8af3-affb-ec3422539cda",
+      "to": "ae97bb8d-4f67-8bc6-a633-d4f3796618a8",
+      "weight": 3.019,
+      "source": "osm",
+      "sourceRef": "way/1357101461",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3538292,
+          -76.521618
+        ],
+        [
+          3.3538491,
+          -76.5215995
+        ]
+      ]
+    },
+    {
+      "id": "3bcf7a1d-29f8-89e9-a5b6-8be8c7529290",
+      "from": "128edf6c-3098-8e80-acce-2f932f20837b",
+      "to": "21e6946c-c998-8af3-affb-ec3422539cda",
+      "weight": 23.672,
+      "source": "osm",
+      "sourceRef": "way/1357101461",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536731,
+          -76.521763
+        ],
+        [
+          3.3538292,
+          -76.521618
+        ]
+      ]
+    },
+    {
+      "id": "6f29daeb-9f12-88c1-a72f-1648d02948b2",
+      "from": "128edf6c-3098-8e80-acce-2f932f20837b",
+      "to": "c118b124-8d31-8014-afac-11488dc8452e",
+      "weight": 12.162,
+      "source": "osm",
+      "sourceRef": "way/1357101461",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536731,
+          -76.521763
+        ],
+        [
+          3.3536553,
+          -76.5216549
+        ]
+      ]
+    },
+    {
+      "id": "e6442446-b25d-8771-a9e6-a998aafb8590",
+      "from": "21e6946c-c998-8af3-affb-ec3422539cda",
+      "to": "c118b124-8d31-8014-afac-11488dc8452e",
+      "weight": 19.766,
+      "source": "osm",
+      "sourceRef": "way/1357101461",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3538292,
+          -76.521618
+        ],
+        [
+          3.3536553,
+          -76.5216549
+        ]
+      ]
+    },
+    {
+      "id": "82bb12ed-bac9-8220-a831-eaed9a9b0397",
+      "from": "6775a667-d685-8362-ac49-fe6451e0ec8a",
+      "to": "bd49b658-2e42-8181-a0d7-71f6cd13d186",
+      "weight": 12.177,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3537686,
+          -76.5212058
+        ],
+        [
+          3.3536591,
+          -76.5212043
+        ]
+      ]
+    },
+    {
+      "id": "e99a250f-d5c6-846c-a2b7-c14aa6dfee2d",
+      "from": "6775a667-d685-8362-ac49-fe6451e0ec8a",
+      "to": "a434548f-c148-8436-a8a5-d239e1e12b75",
+      "weight": 25.145,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3537686,
+          -76.5212058
+        ],
+        [
+          3.3537715,
+          -76.5214323
+        ]
+      ]
+    },
+    {
+      "id": "82518efe-34dd-8498-aded-178daafc5f59",
+      "from": "89a7c897-0143-81f5-ad0c-a6648a8c70b6",
+      "to": "a434548f-c148-8436-a8a5-d239e1e12b75",
+      "weight": 18.382,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3539368,
+          -76.5214299
+        ],
+        [
+          3.3537715,
+          -76.5214323
+        ]
+      ]
+    },
+    {
+      "id": "5b3a26f9-0605-813b-a413-2f3a28decc24",
+      "from": "0eb770d6-a98b-83a0-aa60-033e94f93aad",
+      "to": "89a7c897-0143-81f5-ad0c-a6648a8c70b6",
+      "weight": 59.438,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3539447,
+          -76.5208945
+        ],
+        [
+          3.3539368,
+          -76.5214299
+        ]
+      ]
+    },
+    {
+      "id": "65ee80a9-4ae4-8d82-ac62-e41697f2ca75",
+      "from": "0eb770d6-a98b-83a0-aa60-033e94f93aad",
+      "to": "bf84c7f8-0dd5-8f69-ae2e-069fd1585340",
+      "weight": 4.574,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3539447,
+          -76.5208945
+        ],
+        [
+          3.3539453,
+          -76.5208533
+        ]
+      ]
+    },
+    {
+      "id": "5048aabd-db1d-8f54-a1f0-d268ff22590f",
+      "from": "2c29a1c0-2fe9-8371-a002-77c3cf41ed69",
+      "to": "bf84c7f8-0dd5-8f69-ae2e-069fd1585340",
+      "weight": 6.723,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3538849,
+          -76.5208505
+        ],
+        [
+          3.3539453,
+          -76.5208533
+        ]
+      ]
+    },
+    {
+      "id": "49f5c3df-0a52-89be-afed-d47e434da3a7",
+      "from": "21dff0f1-7cf5-8ba7-a98c-8c8702d79834",
+      "to": "2c29a1c0-2fe9-8371-a002-77c3cf41ed69",
+      "weight": 20.649,
+      "source": "osm",
+      "sourceRef": "way/1357101462",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3536994,
+          -76.5208419
+        ],
+        [
+          3.3538849,
+          -76.5208505
+        ]
+      ]
+    },
+    {
+      "id": "0688b0f2-501e-89c3-ae41-73b9445c9619",
+      "from": "89a7c897-0143-81f5-ad0c-a6648a8c70b6",
+      "to": "ae97bb8d-4f67-8bc6-a633-d4f3796618a8",
+      "weight": 21.202,
+      "source": "osm",
+      "sourceRef": "way/1357101463",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3539368,
+          -76.5214299
+        ],
+        [
+          3.3538491,
+          -76.5215995
+        ]
+      ]
+    },
+    {
+      "id": "c0e00a05-96f8-8421-ae72-3afcec8342dd",
+      "from": "3064de94-40a3-89b9-a684-d288e35409e6",
+      "to": "ff6e1188-14e5-8072-a4f4-a69cf4b1b563",
+      "weight": 2.99,
+      "source": "osm",
+      "sourceRef": "way/1357101464",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3533827,
+          -76.5211045
+        ],
+        [
+          3.3533559,
+          -76.5211023
+        ]
+      ]
+    },
+    {
+      "id": "22929a98-efc0-8cd6-a5d7-aacb51abe40a",
+      "from": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "to": "680ac757-6b58-89e2-a7a7-725a36ad9cda",
+      "weight": 40.592,
+      "source": "osm",
+      "sourceRef": "way/1357101465",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3532474,
+          -76.5207497
+        ],
+        [
+          3.3532399,
+          -76.5211153
+        ]
+      ]
+    },
+    {
+      "id": "931cffa3-7ef5-899a-a029-6d812cf8e94b",
+      "from": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "to": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "weight": 15.523,
+      "source": "osm",
+      "sourceRef": "way/1357101465",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3532474,
+          -76.5207497
+        ],
+        [
+          3.353387,
+          -76.5207493
+        ]
+      ]
+    },
+    {
+      "id": "ea3312c5-f620-8a15-a52a-d21053db0bcf",
+      "from": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "to": "ca3094dc-02a2-8c5c-a096-7284f500f3d9",
+      "weight": 34.938,
+      "source": "osm",
+      "sourceRef": "way/1357101465",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.353387,
+          -76.5207493
+        ],
+        [
+          3.3537012,
+          -76.5207483
+        ]
+      ]
+    },
+    {
+      "id": "d7e26381-1048-83b7-a79a-323235da43bf",
+      "from": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "to": "ca3094dc-02a2-8c5c-a096-7284f500f3d9",
+      "weight": 6.904,
+      "source": "osm",
+      "sourceRef": "way/1357101465",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3537478,
+          -76.5207072
+        ],
+        [
+          3.3537012,
+          -76.5207483
+        ]
+      ]
+    },
+    {
+      "id": "ba24f151-0311-8c1b-a946-39d4d921aef5",
+      "from": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "to": "72c51a5e-8e18-8e62-a31e-d593b2134f18",
+      "weight": 18.072,
+      "source": "osm",
+      "sourceRef": "way/1357101465",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3537478,
+          -76.5207072
+        ],
+        [
+          3.3537464,
+          -76.5205444
+        ]
+      ]
+    },
+    {
+      "id": "b0f1eb9f-36e1-8b33-a3db-c8067b09574b",
+      "from": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "to": "6edd0312-8ad8-839c-a701-899c367eec4b",
+      "weight": 22.978,
+      "source": "osm",
+      "sourceRef": "way/1357101466",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.353387,
+          -76.5207493
+        ],
+        [
+          3.3533869,
+          -76.5209563
+        ]
+      ]
+    },
+    {
+      "id": "9f2c90c5-3fa2-804f-a7c9-59f9042831cd",
+      "from": "2a2a99a5-0944-8358-a16a-87494d4a128a",
+      "to": "ca3094dc-02a2-8c5c-a096-7284f500f3d9",
+      "weight": 45.01,
+      "source": "osm",
+      "sourceRef": "way/1357101467",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3533856,
+          -76.5210022
+        ],
+        [
+          3.3537012,
+          -76.5207483
+        ]
+      ]
+    },
+    {
+      "id": "128df1da-8456-8b17-a67d-f3d5e52a8472",
+      "from": "21dff0f1-7cf5-8ba7-a98c-8c8702d79834",
+      "to": "683aa8ec-3880-833c-a8fb-44dbe1b6eea0",
+      "weight": 4.673,
+      "source": "osm",
+      "sourceRef": "way/1357101468",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536994,
+          -76.5208419
+        ],
+        [
+          3.3536621,
+          -76.5208613
+        ]
+      ]
+    },
+    {
+      "id": "b5af4efc-f32b-8cf2-af1a-5b9ff0fdcc1c",
+      "from": "21dff0f1-7cf5-8ba7-a98c-8c8702d79834",
+      "to": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "weight": 15.891,
+      "source": "osm",
+      "sourceRef": "way/1357101468",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536994,
+          -76.5208419
+        ],
+        [
+          3.3537478,
+          -76.5207072
+        ]
+      ]
+    },
+    {
+      "id": "ffee01ec-19e8-824a-a36b-51de39a9e831",
+      "from": "0bf3d636-556c-86e6-ad50-8a0f35cf49ce",
+      "to": "3064de94-40a3-89b9-a684-d288e35409e6",
+      "weight": 30.866,
+      "source": "osm",
+      "sourceRef": "way/1357101469",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3536599,
+          -76.5211191
+        ],
+        [
+          3.3533827,
+          -76.5211045
+        ]
+      ]
+    },
+    {
+      "id": "a379eb51-5a2e-8198-acb8-240fe80db4b4",
+      "from": "0eb770d6-a98b-83a0-aa60-033e94f93aad",
+      "to": "d8bd7f84-4ff8-8c53-afa2-9099dfd738d4",
+      "weight": 7.371,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3539447,
+          -76.5208945
+        ],
+        [
+          3.3540104,
+          -76.5209033
+        ]
+      ]
+    },
+    {
+      "id": "7f6fa21c-9d2d-81df-a86b-5317581fb9b9",
+      "from": "d8bd7f84-4ff8-8c53-afa2-9099dfd738d4",
+      "to": "de8a783f-2e0f-8542-a962-3b1c55a00b74",
+      "weight": 24.01,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3540104,
+          -76.5209033
+        ],
+        [
+          3.3540108,
+          -76.5211196
+        ]
+      ]
+    },
+    {
+      "id": "abbacdcb-c856-8c81-a6fb-01efc2757220",
+      "from": "32a9ab3d-1503-889c-aa31-24748e210f0d",
+      "to": "de8a783f-2e0f-8542-a962-3b1c55a00b74",
+      "weight": 13.834,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3541352,
+          -76.5211182
+        ],
+        [
+          3.3540108,
+          -76.5211196
+        ]
+      ]
+    },
+    {
+      "id": "6b46529a-87a5-88e4-a332-a3797f06bec7",
+      "from": "32a9ab3d-1503-889c-aa31-24748e210f0d",
+      "to": "fc1ed5a0-ff44-8f1a-ae13-aa58606d3562",
+      "weight": 7.634,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3541352,
+          -76.5211182
+        ],
+        [
+          3.3541932,
+          -76.5210814
+        ]
+      ]
+    },
+    {
+      "id": "46e37d09-f9cd-8970-ad05-eb39fc14f43b",
+      "from": "1518870d-5129-8459-a23c-47a70d7fd5e2",
+      "to": "fc1ed5a0-ff44-8f1a-ae13-aa58606d3562",
+      "weight": 2.824,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3542186,
+          -76.5210814
+        ],
+        [
+          3.3541932,
+          -76.5210814
+        ]
+      ]
+    },
+    {
+      "id": "a19d180a-faff-86b9-acb3-9e8346c3457d",
+      "from": "1518870d-5129-8459-a23c-47a70d7fd5e2",
+      "to": "7602db5c-15e4-8db3-a474-f98fb9dff437",
+      "weight": 6.789,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3542186,
+          -76.5210814
+        ],
+        [
+          3.3542242,
+          -76.5211423
+        ]
+      ]
+    },
+    {
+      "id": "a31ea369-bbc6-8697-a6c0-a4322ed24569",
+      "from": "154f00cf-0210-8eef-a3cc-f3499f76a79b",
+      "to": "7602db5c-15e4-8db3-a474-f98fb9dff437",
+      "weight": 4.399,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3542228,
+          -76.5211819
+        ],
+        [
+          3.3542242,
+          -76.5211423
+        ]
+      ]
+    },
+    {
+      "id": "7c7500d5-b6da-8983-a445-5f548a8a375b",
+      "from": "154f00cf-0210-8eef-a3cc-f3499f76a79b",
+      "to": "f44d3f23-3d55-875c-a1bb-470c478bf713",
+      "weight": 3.94,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3542228,
+          -76.5211819
+        ],
+        [
+          3.3542059,
+          -76.5212131
+        ]
+      ]
+    },
+    {
+      "id": "e85a744b-b502-8373-a5e3-698cd6a4a55e",
+      "from": "2cec817b-2e19-8d3a-adab-c5784b4564f8",
+      "to": "f44d3f23-3d55-875c-a1bb-470c478bf713",
+      "weight": 8.152,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3541748,
+          -76.5212796
+        ],
+        [
+          3.3542059,
+          -76.5212131
+        ]
+      ]
+    },
+    {
+      "id": "d1e4d756-aeba-87b2-ae32-17fcd78d6816",
+      "from": "2cec817b-2e19-8d3a-adab-c5784b4564f8",
+      "to": "e52a10a8-f648-829b-a080-4c729cabfca3",
+      "weight": 5.119,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3541748,
+          -76.5212796
+        ],
+        [
+          3.3541437,
+          -76.5213136
+        ]
+      ]
+    },
+    {
+      "id": "ef8cee8b-8bf9-8e9a-aab9-b2ed0dd29e71",
+      "from": "bfb3f09e-e9da-89f4-a081-7e04a44906a6",
+      "to": "e52a10a8-f648-829b-a080-4c729cabfca3",
+      "weight": 6.225,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3541055,
+          -76.5213546
+        ],
+        [
+          3.3541437,
+          -76.5213136
+        ]
+      ]
+    },
+    {
+      "id": "36bd7623-fc44-84ca-abd9-b14571a50b81",
+      "from": "541a981c-3558-8b3a-a108-a5d9907de2e9",
+      "to": "bfb3f09e-e9da-89f4-a081-7e04a44906a6",
+      "weight": 3.785,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3540829,
+          -76.5213801
+        ],
+        [
+          3.3541055,
+          -76.5213546
+        ]
+      ]
+    },
+    {
+      "id": "bf2a3b5c-beb1-8390-ad9f-3e6a37fdd1e0",
+      "from": "1dbf706b-dd05-896d-a22b-c6996d653aa8",
+      "to": "541a981c-3558-8b3a-a108-a5d9907de2e9",
+      "weight": 5.409,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3540547,
+          -76.5214198
+        ],
+        [
+          3.3540829,
+          -76.5213801
+        ]
+      ]
+    },
+    {
+      "id": "7da22087-e768-8cce-a133-fdf45f88027b",
+      "from": "1dbf706b-dd05-896d-a22b-c6996d653aa8",
+      "to": "89a7c897-0143-81f5-ad0c-a6648a8c70b6",
+      "weight": 13.158,
+      "source": "osm",
+      "sourceRef": "way/1357101470",
+      "highway": "footway",
+      "layer": "-1",
+      "coordinates": [
+        [
+          3.3540547,
+          -76.5214198
+        ],
+        [
+          3.3539368,
+          -76.5214299
+        ]
+      ]
+    },
+    {
+      "id": "430dcd86-039d-81ff-a5f3-a0debd119f93",
+      "from": "2c29a1c0-2fe9-8371-a002-77c3cf41ed69",
+      "to": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "weight": 22.033,
+      "source": "osm",
+      "sourceRef": "way/1357101471",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3538849,
+          -76.5208505
+        ],
+        [
+          3.3537478,
+          -76.5207072
+        ]
+      ]
+    },
+    {
+      "id": "9ba1ae2a-cef9-8da8-aff6-65af809a9bfe",
+      "from": "72c51a5e-8e18-8e62-a31e-d593b2134f18",
+      "to": "7b5f0fc9-924d-8651-af75-4b32fd6a26fc",
+      "weight": 6.35,
+      "source": "osm",
+      "sourceRef": "way/1357101473",
+      "highway": "footway",
+      "layer": null,
+      "coordinates": [
+        [
+          3.3537464,
+          -76.5205444
+        ],
+        [
+          3.3537467,
+          -76.5204872
+        ]
+      ]
+    },
+    {
+      "id": "6211255e-fef3-8973-a480-e97afe9d0ee7",
+      "from": "a932e976-2583-8408-a57f-b5636e4c69a8",
+      "to": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "weight": 9.388,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-cajeros-automaticos",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353324,
+          -76.520693
+        ],
+        [
+          3.353387,
+          -76.5207493
+        ]
+      ]
+    },
+    {
+      "id": "eccdce17-1ad0-85ef-a188-58e9e0f5689a",
+      "from": "d88ad7d6-dfa1-8b0e-a344-87f3e6d0b1bb",
+      "to": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "weight": 15.661,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-punto-de-recarga-tarjeta-mio",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353133,
+          -76.520832
+        ],
+        [
+          3.3532474,
+          -76.5207497
+        ]
+      ]
+    },
+    {
+      "id": "af0033af-ed71-83aa-a003-6a8b6b8fd695",
+      "from": "ae202c7f-2c6d-87e8-a7ac-9da7a9c75a4e",
+      "to": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "weight": 10.786,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-puntos-de-pago-geo-parking",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353752,
+          -76.522798
+        ],
+        [
+          3.3538209,
+          -76.5227296
+        ]
+      ]
+    },
+    {
+      "id": "51b61c1e-06dc-823e-a0f6-33f21d0cb993",
+      "from": "43e26279-543b-8d15-a116-a1db37f1d453",
+      "to": "cbbe74a0-c28b-8390-aef1-cb544bf666e2",
+      "weight": 5.871,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-tienda-uao",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.35319,
+          -76.521159
+        ],
+        [
+          3.3532284,
+          -76.5211227
+        ]
+      ]
+    },
+    {
+      "id": "a375bf0b-ec4b-8f4b-a945-a8007644fe53",
+      "from": "09bbe647-096e-8e76-a380-e458bb612327",
+      "to": "f76d4908-0f62-80d3-a9fa-6d62ead8e11a",
+      "weight": 9.828,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-porteria-1",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353578,
+          -76.523217
+        ],
+        [
+          3.3536522,
+          -76.5231689
+        ]
+      ]
+    },
+    {
+      "id": "eb6bd8da-e2ec-8c3e-a47a-14f7387017b5",
+      "from": "303655a7-af9d-857e-adef-5d5d779cccd3",
+      "to": "72c51a5e-8e18-8e62-a31e-d593b2134f18",
+      "weight": 3.753,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-porteria-3",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353715,
+          -76.520532
+        ],
+        [
+          3.3537464,
+          -76.5205444
+        ]
+      ]
+    },
+    {
+      "id": "2e8aecec-a750-8e0a-ab6c-92ca524ce23e",
+      "from": "e1bf2b6b-fec2-83e1-a3ee-2c85632966d6",
+      "to": "66cb7f1b-a75d-820e-a4fc-2a96db435378",
+      "weight": 26.505,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-biblioteca-crai",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353415,
+          -76.52246
+        ],
+        [
+          3.3535055,
+          -76.5222391
+        ]
+      ]
+    },
+    {
+      "id": "a7009c32-93ee-8899-a00c-6db6bc0fd82e",
+      "from": "26f1011e-fc7d-8547-a7cc-8427d84b616b",
+      "to": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "weight": 25.036,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-cafeteria-dcafe",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353278,
+          -76.522715
+        ],
+        [
+          3.3535027,
+          -76.5227293
+        ]
+      ]
+    },
+    {
+      "id": "8638898e-7dae-8130-a1d7-9595d7de24a2",
+      "from": "ba6337d6-0916-85f2-a57b-7de9dde2f933",
+      "to": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "weight": 3.063,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-edificio-central-norte",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353795,
+          -76.522739
+        ],
+        [
+          3.3538209,
+          -76.5227296
+        ]
+      ]
+    },
+    {
+      "id": "92f6b21a-5d4d-8ab8-a9ea-0b2fbfd4bd64",
+      "from": "30fc12d0-feb0-8918-a4d0-67282ea7a894",
+      "to": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "weight": 5.649,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-edificio-central-sur",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353452,
+          -76.522726
+        ],
+        [
+          3.3535027,
+          -76.5227293
+        ]
+      ]
+    },
+    {
+      "id": "1a557373-77e6-816b-a596-f7887ebe6f10",
+      "from": "9866328b-5df5-837c-aea9-27afd60445e5",
+      "to": "1d46b250-9d20-8249-a34d-d17289c16c57",
+      "weight": 22.352,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-1",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353243,
+          -76.521736
+        ],
+        [
+          3.3533771,
+          -76.521586
+        ]
+      ]
+    },
+    {
+      "id": "74773c1c-2be6-8082-a099-d21b53169113",
+      "from": "534c5c5a-4cda-885f-aa1a-dded1ab7c307",
+      "to": "90904500-8d25-8557-a068-db42c201e412",
+      "weight": 9.726,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-1-oficinas",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353275,
+          -76.522079
+        ],
+        [
+          3.3531876,
+          -76.5220824
+        ]
+      ]
+    },
+    {
+      "id": "1a960494-fe8f-8400-ad78-344d0f8493f3",
+      "from": "69457ce0-34fb-8c9d-aaca-0493bf4a8c75",
+      "to": "a7680e41-ec29-8b17-a00a-bb4188faac7a",
+      "weight": 14.894,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-2",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353484,
+          -76.521454
+        ],
+        [
+          3.3534555,
+          -76.5215851
+        ]
+      ]
+    },
+    {
+      "id": "899ae329-3d15-8d3d-ae2f-2d3688fad8ed",
+      "from": "aa01b351-2cf4-8f63-af57-4446f1e78e7c",
+      "to": "38292107-fb9c-8612-afae-894fbd652c35",
+      "weight": 7.926,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-2-oficinas",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353551,
+          -76.521766
+        ],
+        [
+          3.3536191,
+          -76.5217449
+        ]
+      ]
+    },
+    {
+      "id": "3810cf36-ff8f-81e3-a115-68f66a53ce86",
+      "from": "545dbb17-5cf3-895a-ab2a-c0d182d8b5af",
+      "to": "6775a667-d685-8362-ac49-fe6451e0ec8a",
+      "weight": 7.265,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-3",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353787,
+          -76.521143
+        ],
+        [
+          3.3537686,
+          -76.5212058
+        ]
+      ]
+    },
+    {
+      "id": "399a48b6-57f2-804e-a6f7-ed0331501bfc",
+      "from": "7bec3e63-315f-885c-a34e-3a46d1e32d22",
+      "to": "a434548f-c148-8436-a8a5-d239e1e12b75",
+      "weight": 9.939,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-3-oficinas",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.35383,
+          -76.5215
+        ],
+        [
+          3.3537715,
+          -76.5214323
+        ]
+      ]
+    },
+    {
+      "id": "cea8dfcc-72d7-87c3-afd8-90a303d001f9",
+      "from": "77290864-efba-8f60-a9c6-d7e4c4b88860",
+      "to": "d8bd7f84-4ff8-8c53-afa2-9099dfd738d4",
+      "weight": 8.9,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-4",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.354047,
+          -76.520832
+        ],
+        [
+          3.3540104,
+          -76.5209033
+        ]
+      ]
+    },
+    {
+      "id": "92784f20-b20a-8ec9-a911-4f4074577632",
+      "from": "1b94f009-ab5a-8784-a62e-e04c9bc3e397",
+      "to": "32a9ab3d-1503-889c-aa31-24748e210f0d",
+      "weight": 6.774,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-aulas-4-oficinas",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.354103,
+          -76.52117
+        ],
+        [
+          3.3541352,
+          -76.5211182
+        ]
+      ]
+    },
+    {
+      "id": "b38e9736-bb84-8d40-a4cf-b80cabb44f10",
+      "from": "df41a325-b1c1-8647-a643-2c8d2515ca7a",
+      "to": "4f763ffd-283e-8535-a0f6-5ce8e9378699",
+      "weight": 13.865,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-uaolabs",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353648,
+          -76.522364
+        ],
+        [
+          3.3536339,
+          -76.5222399
+        ]
+      ]
+    },
+    {
+      "id": "9d891c92-f2d1-8375-a786-2ed24fc7874b",
+      "from": "2d8104eb-2eb0-8847-a40a-ff5a869760df",
+      "to": "6b8bff01-8e96-871d-aea8-b71048a593bd",
+      "weight": 12.612,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-cafeterias",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353495,
+          -76.520784
+        ],
+        [
+          3.353387,
+          -76.5207493
+        ]
+      ]
+    },
+    {
+      "id": "7eef73f5-4ae5-8c74-a243-f917e5a41ff2",
+      "from": "556db453-4556-8351-ab0e-1fe0f9db91bb",
+      "to": "2defe8f4-1801-8f5e-a3da-e3449b4e5628",
+      "weight": 19.085,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-espacios-de-actividades-bienestar",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353217,
+          -76.520924
+        ],
+        [
+          3.3533872,
+          -76.5209462
+        ]
+      ]
+    },
+    {
+      "id": "ec2ba64f-fef5-82f5-a9d3-ecb6ed218ba2",
+      "from": "23da66e9-f6f9-8569-af98-c284b2a9992c",
+      "to": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "weight": 12.416,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-oficinas-bienestar",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.35315,
+          -76.520695
+        ],
+        [
+          3.3532474,
+          -76.5207497
+        ]
+      ]
+    },
+    {
+      "id": "a028fe97-ce0b-8d1f-a61e-20214af625dd",
+      "from": "22c74896-9179-8c8e-a99e-2754148d62a0",
+      "to": "4f763ffd-283e-8535-a0f6-5ce8e9378699",
+      "weight": 18.061,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-agora",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353658,
+          -76.522079
+        ],
+        [
+          3.3536339,
+          -76.5222399
+        ]
+      ]
+    },
+    {
+      "id": "edcd56aa-eea4-8cd5-a850-a7bf421538a2",
+      "from": "a35c3ffa-7669-8ca0-a1da-de30aaba6dc8",
+      "to": "edfdde62-efbc-81bd-a24a-fd447e3e8e10",
+      "weight": 2.76,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-auditorio-lile",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353632,
+          -76.522734
+        ],
+        [
+          3.3536565,
+          -76.52273
+        ]
+      ]
+    },
+    {
+      "id": "d914eac3-184e-8214-a03a-b4b7781f0217",
+      "from": "6b417941-5d60-89c7-a2e0-a929755b5632",
+      "to": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "weight": 16.345,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-auditorio-quincha",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353356,
+          -76.52272
+        ],
+        [
+          3.3535027,
+          -76.5227293
+        ]
+      ]
+    },
+    {
+      "id": "1843a184-4eda-8d61-aaec-444e904de2f0",
+      "from": "98db8326-f3d9-806d-ad76-da1b5473c568",
+      "to": "591293c7-644d-8bce-aa76-bc317ca9ad5e",
+      "weight": 11.811,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-auditorio-xepia",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353926,
+          -76.522745
+        ],
+        [
+          3.3538209,
+          -76.5227296
+        ]
+      ]
+    },
+    {
+      "id": "af30d8f4-a604-8b95-a327-7acf5b3c85ea",
+      "from": "96e3fa00-e1e4-8999-a48e-d33f26468746",
+      "to": "aa35bec9-5925-8cf2-a55d-1b421eac0f5f",
+      "weight": 26.409,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-auditorio-yquinde",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353353,
+          -76.522914
+        ],
+        [
+          3.3535027,
+          -76.5227293
+        ]
+      ]
+    },
+    {
+      "id": "38f952bd-4baa-82a7-a627-a0816c6429d3",
+      "from": "390fd5c6-73a7-8258-a356-8c056aa8bb5b",
+      "to": "2dc270f9-adff-8726-a56e-7675e5fc2492",
+      "weight": 7.194,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-ptap",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353803,
+          -76.520741
+        ],
+        [
+          3.3537478,
+          -76.5207072
+        ]
+      ]
+    },
+    {
+      "id": "273850bc-5d49-8ba3-a2f3-d7583617566a",
+      "from": "def246e4-ba46-85a9-a8b7-645eec2558d2",
+      "to": "1107fe7e-dcef-8d13-a4f8-1124acb59e07",
+      "weight": 8.178,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-capilla-del-campus-oratorio",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353551,
+          -76.521857
+        ],
+        [
+          3.3535063,
+          -76.5219155
+        ]
+      ]
+    },
+    {
+      "id": "0a2c2180-602c-83b7-ac04-ef22b1eb2963",
+      "from": "718d2aa4-9310-81c5-a0ae-6a4ee12df80a",
+      "to": "02bc5ff9-1bac-88ca-ab3e-1eb98a58e891",
+      "weight": 4.149,
+      "source": "simulated",
+      "sourceRef": "nearest-vertex:uao-poi-enfermeria",
+      "highway": null,
+      "layer": null,
+      "coordinates": [
+        [
+          3.353227,
+          -76.520781
+        ],
+        [
+          3.3532474,
+          -76.5207497
+        ]
+      ]
+    }
+  ]
+}
