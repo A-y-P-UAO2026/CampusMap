@@ -1,0 +1,1344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520693,
+          3.353324
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "LimeGreen",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/atm.svg",
+          "popupShape": "Large"
+        },
+        "name": "Cajeros Automáticos",
+        "description": "{{https://i.imgur.com/MXIQQrx.jpeg}}\n**Cajeros Automáticos:** Davivienda y Banco de Bogotá\n**Ubicación:** Bienestar Universitario - Primer Piso "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.51999,
+          3.353942
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "color": "LimeGreen",
+          "iconUrl": "https://img.icons8.com/?size=100&id=63091&format=png&color=000000"
+        },
+        "name": "Punto de pago GEO PARKING",
+        "description": "{{https://i.imgur.com/Ti0SGTf.jpeg|350}}\n**Ubicación:** Parqueadero de Estudiantes y Visitantes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520832,
+          3.353133
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "https://img.icons8.com/?size=100&id=59732&format=png&color=FFFFFF",
+          "color": "Blue"
+        },
+        "name": "Punto de Recarga Tarjeta MIO",
+        "description": "{{https://i.imgur.com/osN9sD0.jpeg|300}}\n**Ubicacion:** Bienestar Universitario - Primer Piso "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522798,
+          3.353752
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "color": "LimeGreen",
+          "iconUrl": "https://img.icons8.com/?size=100&id=63091&format=png&color=000000"
+        },
+        "name": "Puntos de pago GEO PARKING",
+        "description": "{{https://i.imgur.com/MmFoJIm.jpeg|300}}\n**Ubicacion:** Edificio Central - Ala Norte/Oeste"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521159,
+          3.35319
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Purple",
+          "iconUrl": "/uploads/pictogram/kiosk.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Tienda UAO",
+        "description": "{{https://i.imgur.com/iRTuxjb.jpeg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.523217,
+          3.353578
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Porteria 1",
+        "description": "{{https://i.imgur.com/LF7hZeH.jpg}}\n***Ingreso y Salida Peatonal***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522139,
+          3.353037
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Porteria 2",
+        "description": "{{https://i.imgur.com/83sayOO.jpeg}}\n***Ingreso Vehicular a Parqueadero - Empleados***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520532,
+          3.353715
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Portería 3",
+        "description": "{{https://i.imgur.com/7VQTyZB.png}}\n***Ingreso y Salida Peatonal***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522305,
+          3.35429
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Porteria 4",
+        "description": "{{https://i.imgur.com/EuhP2F6.jpeg}}\n***Ingreso Vehicular a Parqueadero - Empleados***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519604,
+          3.354122
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Portería 5",
+        "description": "{{https://i.imgur.com/xXsq8fL.jpeg}}\n***Entrada a Parqueadero de Motos - Estudiantes y Visitantes***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519588,
+          3.353131
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Black",
+          "iconUrl": "/uploads/pictogram/entrance.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Portería 6",
+        "description": "{{https://i.imgur.com/9752bpl.jpg}}\n***Entrada a Parqueadero de Carros - Estudiantes y Visitantes***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519193,
+          3.35319
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkSlateGrey",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/bicycle-share.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Parqueadero de Bicicletas",
+        "description": "{{https://i.imgur.com/uILUUG8.jpeg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522455,
+          3.353118
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkSlateGrey",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/car.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Parqueadero de Empleados P2",
+        "description": "{{https://i.imgur.com/QpWgbZW.jpeg}}\n\n[[https://www.uao.edu.co/servicio-de-parqueadero/|Mas información]]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522305,
+          3.354154
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkSlateGrey",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/car.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Parqueadero de Empleados P4",
+        "description": "{{https://i.imgur.com/ySq0zT7.jpeg}}\n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519116,
+          3.353669
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkSlateGrey",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/car.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Parqueadero de Estudiantes y Visitantes",
+        "description": "{{https://i.imgur.com/XAKg98C.jpeg}}\n\n[[https://www.uao.edu.co/servicio-de-parqueadero/|Mas información]]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519577,
+          3.353444
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkSlateGrey",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/scooter.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Parqueadero de Motos",
+        "description": "{{https://i.imgur.com/m6r10rb.jpg}}\n\n[[https://www.uao.edu.co/servicio-de-parqueadero/|Mas información]]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.519764,
+              3.354103
+            ],
+            [
+              -76.518971,
+              3.354117
+            ],
+            [
+              -76.518477,
+              3.354119
+            ],
+            [
+              -76.518464,
+              3.353664
+            ],
+            [
+              -76.518464,
+              3.35338
+            ],
+            [
+              -76.518442,
+              3.35315
+            ],
+            [
+              -76.518686,
+              3.35316
+            ],
+            [
+              -76.518998,
+              3.353147
+            ],
+            [
+              -76.519357,
+              3.353115
+            ],
+            [
+              -76.51973,
+              3.353104
+            ],
+            [
+              -76.519764,
+              3.354103
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "fill": true,
+          "zoomTo": -2,
+          "showLabel": null,
+          "labelDirection": "auto",
+          "labelInteractive": true,
+          "fillOpacity": 0.1,
+          "fillColor": "PeachPuff",
+          "opacity": 0.4,
+          "weight": 1,
+          "color": "Khaki",
+          "popupShape": "Large",
+          "popupTemplate": "Default"
+        },
+        "name": "Parqueadero Estudiantes",
+        "description": "{{https://i.imgur.com/hKApQUl.jpeg}}\n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.52246,
+          3.353415
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/library.svg",
+          "popupShape": "Large",
+          "showLabel": null,
+          "labelInteractive": true,
+          "iconClass": "Drop",
+          "color": "FireBrick"
+        },
+        "name": "Biblioteca - CRAI",
+        "description": "{{https://i.imgur.com/q51gxvZ.jpeg}}\n\n## Centro de Recursos para el Aprendizaje y la Investigación,  [[https://www.uao.edu.co/biblioteca/|CRAI]]\n**Ubicación:** Edificio Central - Ala Sur/Este"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522715,
+          3.353278
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Gold",
+          "iconUrl": "/uploads/pictogram/restaurant.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Cafetería D´Cafe",
+        "description": "{{https://i.imgur.com/l4a0vS0.jpeg}}\n**Ubicación:** Ala Sur - Primer Piso "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.523066,
+              3.354041
+            ],
+            [
+              -76.522273,
+              3.354055
+            ],
+            [
+              -76.522262,
+              3.353265
+            ],
+            [
+              -76.523053,
+              3.353246
+            ],
+            [
+              -76.523066,
+              3.354041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "fill": true,
+          "zoomTo": -2,
+          "showLabel": null,
+          "labelDirection": "auto",
+          "labelInteractive": true,
+          "fillOpacity": 0.3,
+          "fillColor": "PeachPuff",
+          "opacity": 0.1,
+          "weight": 1,
+          "color": "White",
+          "popupShape": "Panel",
+          "popupTemplate": "Default"
+        },
+        "name": "Edificio Central",
+        "description": "{{https://i.imgur.com/fuSv7pW.jpg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522739,
+          3.353795
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop"
+        },
+        "name": "Oficinas Edificio Central - Ala Norte",
+        "description": "{{https://i.imgur.com/r4QemSX.jpg}}\n\n**Primer Piso**\n***Oeste***\n- Registro Académico. \n- Dirección de Mercadeo. \n- Admisiones.  \n- Dirección de Gestión Humana.  \n***Este***\n- Vicerrectoría Administrativa y Financiera. \n- Contraloría.\n- Contabilidad.\n- Dirección de Gestión Humana.\n\n**Segundo Piso**\n***Oeste***\n- Dirección de Planeación y Efectividad Institucional.\n- Dirección de Egresados.\n- PAEM.\n***Este*** \n- Facultad de Comunicación.\n\n**Tercer Piso**\n- Facultad de Ingeniería y Ciencias Básicas. \n- Salón Cázcoli. \n\n**Cuarto Piso**  \n- Rectoría. \n- Gestión de Proyectos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522726,
+          3.353452
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Grey",
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop",
+          "labelInteractive": true,
+          "zoomTo": -13
+        },
+        "description": "{{https://i.imgur.com/I9Ro6Og.jpeg}}\n\n**Primer Piso**\n- Cafeteria D'CAFE.\n***Oeste***\n   -  Auditorio Yquinde.  \n***Este***\n- Biblioteca CRAI. \n\n**Segundo Piso**\n***Oeste***\n- Secretaria General.  \n\n**Tercer Piso**\n***Oeste***\n- Facultad de Administración.\n- Centro de Practicas y Pasantías. \n***Este***\n- Facultad de Arquitectura. \n\n**Cuarto Piso**\n***Oeste***  \n-CESSA. \n***Este***\n-Vicerrectoría Académica. \n-Vicerrectoría de Investigación e Innovación.  ",
+        "name": "Oficinas Edificio Central - Ala Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521736,
+          3.353243
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/books.svg",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "popupTemplate": "Default"
+        },
+        "name": "Aulas 1",
+        "description": "{{https://i.imgur.com/WwNgi3e.jpeg}}\n**Primer Piso**\n- Salones 1101 al 1106. \n- Torreón A1T1. \n**Segundo Piso**\n- Salones 1201 al 1206. \n- Torreón A1T2. \n**Tercer Piso**\n- Salones 1301 al 1306.  \n- Torreón A1T3. \n**Cuarto Piso**\n- Salones 1401 al 1410. \n- Salón de Dibujo SD_A1T4. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522079,
+          3.353275
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop"
+        },
+        "name": "Aulas 1 - Oficinas",
+        "description": "{{https://i.imgur.com/WwNgi3e.jpeg}}\n**Sótano**\n- Taller.\n- Almacén de suministros.\n**Primer Piso**\n- Oficina de Relaciones Internacionales.\n**Segundo Piso**\n- Instituto de Idiomas.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521454,
+          3.353484
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/books.svg",
+          "showLabel": null,
+          "popupShape": "Panel"
+        },
+        "name": "Aulas 2",
+        "description": "{{https://i.imgur.com/st7JeIl.jpeg}}\n**Primer Piso**\n- Salones 2101 al 2106. \n- Torreón A2T1. \n**Segundo Piso**\n- Salones 2201 al 2206. \n- Torreón A2T2. \n**Tercer Piso**\n- Salones 2301 al 2306.  \n- Torreón A2T3. \n**Cuarto Piso**\n- Salones 2401 al 2410. \n- Salón de Dibujo SD_A2T4. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521766,
+          3.353551
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop"
+        },
+        "name": "Aulas 2 - Oficinas",
+        "description": "{{https://i.imgur.com/st7JeIl.jpeg}}\n**Primer Piso**\n- Oratorio. \n**Segundo Piso**\n- Dirección de Comunicaciones Institucionales. \n- Agencia UAO (Ubicado al Este)\n**Tercer Piso**\n- Servicios a la Comunidad SAC.\n**Cuarto Piso**\n- Protección y Control. \n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521143,
+          3.353787
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/books.svg",
+          "showLabel": null,
+          "popupShape": "Panel"
+        },
+        "name": "Aulas 3",
+        "description": "{{https://i.imgur.com/qRIFICK.jpg}}\n**Primer Piso**\n- Salones 3101 al 3106. \n- Torreón A3T1. \n**Segundo Piso**\n- Salones 3201 al 3206. \n- Torreón A3T2. \n**Tercer Piso**\n- Salones 3301 al 3306.  \n- Torreón A3T3. \n**Cuarto Piso**\n- Salones 3401 al 3410. \n- Salón de Dibujo SD_A3T4. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5215,
+          3.35383
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop"
+        },
+        "name": "Aulas 3 - Oficinas",
+        "description": "{{https://i.imgur.com/qRIFICK.jpg}}\n**Primer Piso**\n- Fundautónoma.\n**Segundo y Tercer Piso**\n- Dirección de Tecnologías de Información DTI.\n**Cuarto Piso**\n- Seguridad y Salud en el Trabajo.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520832,
+          3.354047
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/books.svg",
+          "showLabel": null,
+          "popupShape": "Panel"
+        },
+        "name": "Aulas 4",
+        "description": "{{https://i.imgur.com/jWyYUtU.jpg}}\n**Primer Piso**\n- Torreón A4T1 \n- Torreón A4T1A\n- Torreón A4T1B. \n**Segundo Piso**\n- Salones 4201 al 4206. \n- Torreón A4T2. \n**Tercer Piso**\n- Salones 4301 al 4306.  \n- Torreón A4T3. \n**Cuarto Piso**\n- Salones 4401 al 4410. \n- Salón de Dibujo SD_A4T4. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.52117,
+          3.354103
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "iconClass": "Drop"
+        },
+        "name": "Aulas 4 - Oficinas",
+        "description": "{{https://i.imgur.com/jWyYUtU.jpg}}\n**Primer Piso**\n- Unidad de Atención Financiera al Estudiante (Kardex Financiero, Apoyo Financiero). \n**Segundo**\n- UAO Virtual.\n**Tercer Piso**\nUnidad de Planeación y Desarrollo del Campus.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.520022,
+              3.354173
+            ],
+            [
+              -76.520028,
+              3.353939
+            ],
+            [
+              -76.51991,
+              3.353926
+            ],
+            [
+              -76.51981,
+              3.353915
+            ],
+            [
+              -76.519805,
+              3.354004
+            ],
+            [
+              -76.5198,
+              3.354055
+            ],
+            [
+              -76.519802,
+              3.354092
+            ],
+            [
+              -76.5198,
+              3.354151
+            ],
+            [
+              -76.520022,
+              3.354173
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "opacity": 0.1,
+          "fillColor": "SlateGray"
+        },
+        "name": "Lab. Prototipado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522364,
+          3.353648
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "FireBrick",
+          "iconClass": "Drop",
+          "iconUrl": "https://img.icons8.com/?size=100&id=Im8npXfB6ZSK&format=png&color=FFFFFF",
+          "showLabel": null,
+          "popupShape": "Panel",
+          "labelInteractive": true
+        },
+        "name": "UaoLabs",
+        "description": "{{https://i.imgur.com/FDDPJEb.jpg}}\n\n**Nivel 1**\n***Oeste***\n- Dirección Administrativa de laboratorios.\n- Unidad del Servicio al Usuario - USU.\n- Oficinas de Jovenes Investigadores.\n- Publicaciones.\n- Salas de Sistemas Generales.\n- Laboratorios de Física, Optoelectrónica y Biomédica. \n***Este***\n- Laboratorios de Mercados Financieros.\n- Laboratorios de Innolab e infolab.\n- Laboratorios de Química y Micropropagación. \n- Laboratorio de Análisis Térmico.\n- Laboratorio de Bioprocesos y Ciencias Ambientales.\n- Deposito CPMA\n- Salas de Sistemas Especializadas (MAC)\n- Audiolab.\n\n**Nivel 2**\n***Oeste***\n- Laboratorios de Ingeniería Industrial.\n- Laboratorios de Electrónica, Automática y Robótica.\n- Laboratorio de Conversión de Energía.\n- Laboratorio de Inteligencia Artificial e Ing. Datos\n- Laboratorio Vivo.\n- Sinapsis\n***Este*** \n- Laboratorio Medialab.\n- Cámara de Geselle.\n- Laboratorio de Biomecánica.\n- Laboratorio de Fablab.\n- Laboratorios de Ing. Mecánica. \n- Laboratorios de Idiomas. \n- Laboratorios del CPMA.\n- Noticiero 90 Minutos.\n\n[[https://www.uao.edu.co/experimenta-uao/laboratorios-uao/|Mas información]]\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519891,
+          3.354012
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "FireBrick",
+          "iconClass": "Drop",
+          "iconUrl": "https://img.icons8.com/?size=100&id=Im8npXfB6ZSK&format=png&color=FFFFFF",
+          "showLabel": null,
+          "popupShape": "Large",
+          "labelInteractive": true
+        },
+        "name": "UaoLabs - Lab prototipado",
+        "description": "{{https://i.imgur.com/PwtyZem.jpeg}}\n\n**Ubicación:** Parqueadero de Estudiantes y Visitantes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520784,
+          3.353495
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Gold",
+          "iconUrl": "/uploads/pictogram/restaurant.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Cafeterías",
+        "description": "{{https://i.imgur.com/OYV0Mln.jpeg}}\n**Primer Piso**\n- Escaladas Café.\n- Petete´s.\n- Caffesabor.\n- Inajar.\n**Segundo Piso**\n- Green Point.\n**Tercer Piso**\n- Mr. Fruit & Gourmet.\n\n [[https://sitios.uao.edu.co/cafeterias/|Mas información. ]]\n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520924,
+          3.353217
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Sienna",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/theatre.svg",
+          "showLabel": null,
+          "popupShape": "Large"
+        },
+        "name": "Espacios de actividades Bienestar",
+        "description": "{{https://i.imgur.com/NVcY8aP.jpeg}}\n**Primer Piso**\n- Salón Talleres Corporales. \n- Salón de Actividades. \n- Sala Acústica. \n**Segundo Piso**\n- Salón CEA. \n- Salón de Ajedrez. \n- Almacén de Deportes. \n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520695,
+          3.35315
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/computer.svg",
+          "color": "Grey",
+          "showLabel": null,
+          "iconClass": "Drop",
+          "popupShape": "Panel"
+        },
+        "name": "Oficinas Bienestar",
+        "description": "{{https://i.imgur.com/uuLo9jm.jpg}}\n**Primer Piso**\n- Centro Para la Excelencia Académica.  \n- Servicios Para Créditos Institucionales. \n- Centro de Atención, Servicios y Acompañamiento, CASA.\n- Enfermería.  \n**Segundo Piso**\n- Gestión de la Información de Bienestar. \n- Departamento de Deporte y Recreación. \n- Departamento de Cultura. \n- Dirección Bienestar Universitario. \n**Tercer Piso**\n- Desarrollo Humano. \n- Organización de Grupos Estudiantiles OGE. \n- Comisión de Ética. \n- Cooautónoma. \n- Banco del Afecto. \n- Coordinación Desarrollo Psicosocial. \n- Plan Padrino.  "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522079,
+          3.353658
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Sienna",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/theatre.svg",
+          "popupShape": "Large"
+        },
+        "name": "Agora",
+        "description": "{{https://i.imgur.com/4hWtZ45.png}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.520975,
+            3.352963
+          ],
+          [
+            -76.519789,
+            3.352984
+          ],
+          [
+            -76.519791,
+            3.352718
+          ],
+          [
+            -76.519791,
+            3.352443
+          ],
+          [
+            -76.520977,
+            3.352448
+          ],
+          [
+            -76.521905,
+            3.352461
+          ],
+          [
+            -76.521921,
+            3.35266
+          ],
+          [
+            -76.521932,
+            3.352938
+          ],
+          [
+            -76.520974,
+            3.352962
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Green",
+          "opacity": 0.2
+        },
+        "name": "CAAF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.519934,
+          3.353262
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkGreen",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconUrl": "/uploads/pictogram/basketball.svg",
+          "iconClass": "Drop"
+        },
+        "name": "Cancha de Baloncesto",
+        "description": "{{https://i.imgur.com/hWL2tnH.jpg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521218,
+          3.352718
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkGreen",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconUrl": "/uploads/pictogram/soccer.svg",
+          "iconClass": "Drop"
+        },
+        "name": "Cancha de Fútbol ",
+        "description": "{{https://i.imgur.com/2a5h6o5.jpg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520175,
+          3.353484
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkGreen",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconUrl": "/uploads/pictogram/soccer.svg",
+          "iconClass": "Drop"
+        },
+        "name": "Cancha de Fútbol de Salón",
+        "description": "{{https://i.imgur.com/qEjYzEP.jpg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520082,
+          3.353757
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkGreen",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconUrl": "/uploads/pictogram/soccer.svg",
+          "iconClass": "Drop"
+        },
+        "name": "Cancha de Fútbol Pequeña",
+        "description": "{{https://i.imgur.com/8UNcg7u.jpeg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.520285,
+              3.353892
+            ],
+            [
+              -76.52029,
+              3.353685
+            ],
+            [
+              -76.519805,
+              3.353656
+            ],
+            [
+              -76.5198,
+              3.353854
+            ],
+            [
+              -76.520285,
+              3.353892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "opacity": 0.1,
+          "fillColor": "ForestGreen"
+        },
+        "name": "Cancha Futbol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520752,
+          3.352732
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "showLabel": null,
+          "popupShape": "Default",
+          "iconClass": "Drop",
+          "iconUrl": "https://img.icons8.com/?size=100&id=kGX9L2tKAeaN&format=png&color=FFFFFF",
+          "color": "DarkGreen",
+          "iconOpacity": 1
+        },
+        "name": "Centro de Actividad Física y Salud",
+        "description": "{{https://i.imgur.com/fMftH3f.jpg|337}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522734,
+          3.353632
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Tan",
+          "iconUrl": "/uploads/pictogram/castle-manor.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Auditorio LILE",
+        "description": "{{https://i.imgur.com/C2GHFxI.jpeg}}\n**Ubicación:** Edificio Central - Cuarto Piso\n***Ingreso por Ala Sur o Ala Norte***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.52272,
+          3.353356
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Tan",
+          "iconUrl": "/uploads/pictogram/castle-manor.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Auditorio QUINCHA",
+        "description": "{{https://i.imgur.com/SEKbTAv.jpeg}}\n**Ubicación:** Ala Sur - Segundo Piso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522745,
+          3.353926
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Tan",
+          "iconUrl": "/uploads/pictogram/castle-manor.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Auditorio XEPIA",
+        "description": "{{https://i.imgur.com/wyBP67Q.jpeg}}\n**Ubicación:** Ala Norte - Segundo Piso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522914,
+          3.353353
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Tan",
+          "iconUrl": "/uploads/pictogram/castle-manor.svg",
+          "showLabel": null,
+          "popupShape": "Large",
+          "iconClass": "Drop"
+        },
+        "name": "Auditorio YQUINDE",
+        "description": "{{https://i.imgur.com/kzyPSjV.jpeg}}\n**Ubicación:** Ala Sur - Primer Piso /Oeste"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.520867,
+              3.353947
+            ],
+            [
+              -76.520867,
+              3.35387
+            ],
+            [
+              -76.520867,
+              3.353741
+            ],
+            [
+              -76.520599,
+              3.353747
+            ],
+            [
+              -76.520599,
+              3.353854
+            ],
+            [
+              -76.520599,
+              3.353953
+            ],
+            [
+              -76.520867,
+              3.353947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "PTAP",
+        "_umap_options": {
+          "color": "CadetBlue"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520741,
+          3.353803
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconUrl": "/uploads/pictogram/drinking-water.svg",
+          "popupShape": "Large",
+          "showLabel": null,
+          "iconClass": "Drop"
+        },
+        "name": "PTAP",
+        "description": "{{https://i.imgur.com/FzBVq9Y.jpeg}}\n***Planta de Tratamiento de Agua Potable***"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.52029,
+              3.354194
+            ],
+            [
+              -76.520296,
+              3.353966
+            ],
+            [
+              -76.520049,
+              3.353945
+            ],
+            [
+              -76.520038,
+              3.354175
+            ],
+            [
+              -76.52029,
+              3.354194
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "fillColor": "DarkGrey",
+          "opacity": 0.1
+        },
+        "name": "PTAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520162,
+          3.35402
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconUrl": "/uploads/pictogram/recycling.svg",
+          "popupShape": "Large",
+          "showLabel": null,
+          "iconClass": "Drop"
+        },
+        "name": "PTAR",
+        "description": "{{https://i.imgur.com/jVZmOnb.jpg}}\nPlanta de Tratamiento de Aguas Residuales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521857,
+          3.353551
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Purple",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/christian.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Capilla del Campus - Oratorio",
+        "description": "{{https://i.imgur.com/PNf90zs.jpg}}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.520781,
+          3.353227
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Purple",
+          "iconUrl": "/uploads/pictogram/doctor.svg",
+          "showLabel": null,
+          "popupShape": "Default",
+          "iconClass": "Drop"
+        },
+        "name": "Enfermeria",
+        "description": "{{https://i.imgur.com/WfURJ9s.jpeg|320}}\n**Ubicación:** Bienestar Universitario - Primer Piso "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522393,
+          3.35331
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "color": "Purple",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/museum.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "name": "Museo",
+        "description": "{{https://i.imgur.com/q0jn9AB.jpeg}}\n**Ubicación:** Uaolabs - Nivel 1/Oeste"
+      }
+    }
+  ]
+}
