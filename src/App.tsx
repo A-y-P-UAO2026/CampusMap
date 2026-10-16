@@ -6,6 +6,7 @@ import { EventsPage } from '@/pages/EventsPage'
 import { HomePage } from '@/pages/HomePage'
 import { LoginPage } from '@/pages/LoginPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
+import { RegisterPage } from '@/pages/RegisterPage'
 
 const MapPage = lazy(() => import('@/pages/MapPage').then((module) => ({ default: module.MapPage })))
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Route>
         <Route path="login" element={<LoginPage />} />
+        <Route path="registro" element={<RegisterPage />} />
       </Routes>
     </BrowserRouter>
   )
