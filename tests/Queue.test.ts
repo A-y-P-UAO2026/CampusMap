@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Queue } from './Queue';
+import { Queue } from '../src/structures/Queue';
 
 describe('Queue (FIFO)', () => {
   it('empieza vacía', () => {
