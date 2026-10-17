@@ -1,23 +1,27 @@
-import type { CampusEvent } from '@/types/campus'
+import type { CampusEvent, CampusLocation } from '@/types/campus'
 import { supabase } from '@/lib/supabase'
 
-export async function fetchUpcomingEvents(): Promise<CampusEvent[]> {
+export type EventLocation = Pick<CampusLocation, 'id' | 'name' | 'slug'>
+export type EventWithLocation = CampusEvent & { location: EventLocation | null }
+
+const EVENT_SELECT = '*, location:locations(id, name, slug)' as const
+
+export async function fetchUpcomingEvents(): Promise<EventWithLocation[]> {
   const { data, error } = await supabase
     .from('events')
-    .select('*')
+    .select(EVENT_SELECT)
     .in('status', ['published', 'active'])
     .gt('starts_at', new Date().toISOString())
-    .eq('registration_open', true)
     .order('starts_at')
 
   if (error) throw error
   return data ?? []
 }
 
-export async function fetchEventById(eventId: string): Promise<CampusEvent | null> {
+export async function fetchEventById(eventId: string): Promise<EventWithLocation | null> {
   const { data, error } = await supabase
     .from('events')
-    .select('*')
+    .select(EVENT_SELECT)
     .eq('id', eventId)
     .maybeSingle()
 
