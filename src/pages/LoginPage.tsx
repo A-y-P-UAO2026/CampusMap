@@ -1,10 +1,11 @@
-import { ArrowLeft, LogIn, MapPinned } from "lucide-react";
+import { ArrowLeft, LogIn } from "lucide-react";
 import { type FormEvent, useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate, useSearchParams } from "react-router";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { supabase } from "@/lib/supabase";
+import { getSafeRedirect, withRedirect } from "@/features/auth/Redirect";
 
 type LoginLocationState = {
   registered?: boolean;
@@ -19,6 +20,8 @@ export function LoginPage() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [searchParams] = useSearchParams();
+  const redirectTo = getSafeRedirect(searchParams.get("redirect"));
 
   const locationState = location.state as LoginLocationState | null;
   const registered = Boolean(locationState?.registered);
@@ -39,14 +42,14 @@ export function LoginPage() {
         throw signInError;
       }
 
-      navigate("/", { replace: true });
+      navigate(redirectTo, { replace: true });
     } catch (caughtError) {
       const message =
         caughtError instanceof Error
           ? caughtError.message === "Invalid login credentials"
             ? "Credenciales inválidas. Verifica tu correo o contraseña."
             : caughtError.message
-        : "Ocurrió un error al iniciar sesión. Inténtalo de nuevo.";
+          : "Ocurrió un error al iniciar sesión. Inténtalo de nuevo.";
       setError(message);
     } finally {
       setLoading(false);
@@ -57,9 +60,7 @@ export function LoginPage() {
     <div className="flex min-h-svh items-center justify-center bg-muted/30 px-4 py-8 sm:px-6">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto grid size-12 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <MapPinned className="size-6" aria-hidden="true" />
-          </div>
+          <img src="/logo_uao.png" alt="Universidad Autónoma de Occidente" className="mx-auto h-16 w-36 rounded-xl object-contain" />
           <CardTitle className="pt-3 text-xl">Iniciar sesión</CardTitle>
         </CardHeader>
         <CardContent>
@@ -103,7 +104,7 @@ export function LoginPage() {
             ) : null}
             <Button type="submit" className="min-h-11 w-full" disabled={loading}>
               <LogIn className="size-4" />
-              {loading ? "Ingresando...": "Iniciar sesión"}
+              {loading ? "Ingresando..." : "Iniciar sesión"}
             </Button>
           </form>
 
@@ -118,7 +119,7 @@ export function LoginPage() {
           <p className="mt-4 text-center text-sm text-muted-foreground">
             ¿No tienes cuenta?{" "}
             <Link
-              to="/registro"
+              to={withRedirect("/registro", redirectTo)}
               className="font-medium text-foreground underline-offset-4 hover:underline"
             >
               Regístrate

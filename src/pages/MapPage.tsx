@@ -249,13 +249,13 @@ export function MapPage() {
                 route={route} animationStatus={animationStatus} playbackKey={playbackKey} onAnimationFinish={finishAnimation} />
             </Card>
             <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-xs text-muted-foreground" aria-label="Leyenda del mapa">
-              <span><span className="mr-2 inline-block w-5 border-t-4 border-green-800 align-middle" />Sendero OSM</span>
-              <span><span className="mr-2 inline-block w-5 border-t-4 border-violet-600 align-middle" />Escaleras OSM</span>
-              <span><span className="mr-2 inline-block w-5 border-t-4 border-dashed border-amber-700 align-middle" />Conexión simulada</span>
-              <span><span className="mr-2 inline-block size-3 rounded-full bg-slate-500 align-middle" />Lugar sin ruta disponible</span>
-              <span><span className="mr-2 inline-block w-5 border-t-[5px] border-blue-600 align-middle" />Ruta calculada (discontinua si es simulada)</span>
+              <span><span className="mr-2 inline-block w-5 border-t-4 border-neutral-700 align-middle" />Sendero OSM</span>
+              <span><span className="mr-2 inline-block w-5 border-t-4 border-black align-middle" />Escaleras OSM</span>
+              <span><span className="mr-2 inline-block w-5 border-t-4 border-dashed border-red-800 align-middle" />Conexión simulada</span>
+              <span><span className="mr-2 inline-block size-3 rounded-full bg-neutral-500 align-middle" />Lugar sin ruta disponible</span>
+              <span><span className="mr-2 inline-block w-5 border-t-[5px] border-green-700 align-middle" />Ruta calculada (discontinua si es simulada)</span>
               {route && (route.result.path.length === 1
-                ? <span><span className="mr-2 inline-block size-3 rounded-full bg-violet-600 align-middle" />A/B · Origen y destino</span>
+                ? <span><span className="mr-2 inline-block size-3 rounded-full bg-green-700 align-middle" />A/B · Origen y destino</span>
                 : <>
                   <span><span className="mr-2 inline-block size-3 rounded-full bg-blue-600 align-middle" />A · Origen</span>
                   <span><span className="mr-2 inline-block size-3 rounded-full bg-red-600 align-middle" />B · Destino</span>

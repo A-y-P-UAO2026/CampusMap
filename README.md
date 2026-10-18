@@ -2,6 +2,10 @@
 
 CampusMap es una plataforma universitaria para explorar el mapa del campus, buscar ubicaciones, calcular rutas y gestionar eventos.
 
+## Documentación académica
+
+Consulta la documentación completa del proyecto en [ENTREGA_PROYECTO.md](ENTREGA_PROYECTO.md).
+
 ## Tecnologías
 
 - React 19 + TypeScript
@@ -130,13 +134,6 @@ src/
 ```
 
 La migración inicial está en [`supabase/migrations/`](supabase/migrations/). Los contratos están en [`src/types/`](src/types/).
-
-## Distribución del trabajo
-
-El plan detallado para los dos desarrolladores está en [`docs/development-plan.md`](docs/development-plan.md):
-
-- Desarrollador 1: navegación, Graph, Dijkstra, Trie, Stack y mapa SVG.
-- Desarrollador 2: eventos, MinHeap, Queue, autenticación e inscripciones.
 
 ## Flujo de ramas
 

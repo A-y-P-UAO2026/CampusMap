@@ -1,10 +1,11 @@
 import { useState, type SubmitEvent } from "react";
-import { ArrowLeft, MapPinned, UserPlus } from "lucide-react";
-import { Link, useNavigate } from "react-router";
+import { ArrowLeft, UserPlus } from "lucide-react";
+import { Link, useNavigate, useSearchParams } from "react-router";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { isRegisterableRole, registerAccount, type RegisterableRole,} from "@/services/auth";
+import { isRegisterableRole, registerAccount, type RegisterableRole, } from "@/services/auth";
+import { getSafeRedirect, withRedirect } from "@/features/auth/Redirect";
 
 const selectClassName =
   "h-11 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 text-base outline-none transition-colors focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 md:text-sm";
@@ -17,6 +18,8 @@ export function RegisterPage() {
   const [role, setRole] = useState<RegisterableRole>("student");
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [searchParams] = useSearchParams();
+  const redirectTo = getSafeRedirect(searchParams.get("redirect"));
 
   async function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -26,12 +29,9 @@ export function RegisterPage() {
     try {
       const result = await registerAccount({ email, password, fullName, role });
 
-      navigate("/login", {
+      navigate(withRedirect("/login", redirectTo), {
         replace: true,
-        state: {
-          registered: true,
-          needsEmailConfirmation: !result.session,
-        },
+        state: { registered: true, needsEmailConfirmation: !result.session },
       });
     } catch (cause) {
       setError(
@@ -48,9 +48,7 @@ export function RegisterPage() {
     <div className="flex min-h-svh items-center justify-center bg-muted/30 px-4 py-8 sm:px-6">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto grid size-12 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <MapPinned className="size-6" aria-hidden="true" />
-          </div>
+          <img src="/logo_uao.png" alt="Universidad Autónoma de Occidente" className="mx-auto h-16 w-36 rounded-xl object-contain" />
           <CardTitle className="pt-3 text-xl font-semibold tracking-tight">
             Crear cuenta
           </CardTitle>
@@ -142,7 +140,7 @@ export function RegisterPage() {
           </form>
           <p className="mt-4 text-center text-base text-muted-foreground">
             ¿Ya tienes cuenta?{" "}
-            <Link to="/login" className="font-medium text-foreground underline-offset-4 hover:underline">
+            <Link to={withRedirect("/login", redirectTo)} className="font-medium text-foreground underline-offset-4 hover:underline">
               Inicia sesión
             </Link>
           </p>

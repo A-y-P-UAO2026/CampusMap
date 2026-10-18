@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Map, MapPinned, Search, University, UserRound } from 'lucide-react'
+import { Map, MapPinned, University, UserRound } from 'lucide-react'
 import { NavLink, Outlet, useNavigate } from 'react-router'
 import { supabase } from '@/lib/supabase'
 
@@ -98,8 +98,7 @@ export function AppLayout() {
       <div className="lg:pl-64">
         <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b bg-background/95 px-4 backdrop-blur sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 lg:hidden"><NavBrand compact /></div>
-          <div className="hidden items-center gap-2 text-sm text-muted-foreground lg:flex"><Search className="size-4" aria-hidden="true" /><span>Explora tu campus</span></div>
-          <div className="flex items-center gap-3">
+          <div className="ml-auto flex items-center gap-3">
             {isLoggedIn ? (
               <span className="text-sm font-medium text-foreground">{userName}</span>
             ) : null}
@@ -130,7 +129,7 @@ export function AppLayout() {
 
 function NavBrand({ compact = false }: { compact?: boolean }) {
   return <NavLink to="/" className="flex items-center gap-3" aria-label="Ir al inicio de CampusMap">
-    <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground"><MapPinned className="size-5" aria-hidden="true" /></span>
+    <img src="/logo_uao.png" alt="UAO" className="h-9 w-14 shrink-0 rounded-lg object-contain" />
     <span className={compact ? 'text-base font-semibold tracking-tight' : 'text-lg font-semibold tracking-tight'}>Campus<span className="text-primary">Map</span></span>
   </NavLink>
 }
