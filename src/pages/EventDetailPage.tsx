@@ -8,6 +8,7 @@ import {
   formatEventTimeRange,
   getRegistrationState,
 } from "@/features/events/eventFormat";
+import { EventRegistrationPanel } from "@/features/events/Eventregistrationpanel";
 import { useEventDetail } from "@/features/events/useEvents";
 
 function MessageCard({
@@ -117,8 +118,7 @@ export function EventDetailPage() {
               {state.event.description ?? "Este evento no tiene descripción."}
             </p>
 
-            {/* E-06: aquí irá el botón «Inscribirme», conectado a la sesión
-                y a la RPC register_for_event. */}
+            <EventRegistrationPanel event={state.event} />
           </CardContent>
         </Card>
       )}

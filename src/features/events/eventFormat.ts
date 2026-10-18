@@ -26,10 +26,6 @@ export interface RegistrationState {
   label: string
 }
 
-/**
- * Resume si el evento admite inscripciones, solo para mostrarlo en pantalla.
- * La decisión real la toma la RPC register_for_event en PostgreSQL.
- */
 export function getRegistrationState(
   event: Pick<CampusEvent, 'status' | 'registration_open' | 'starts_at'>,
   now: Date = new Date(),
@@ -39,4 +35,11 @@ export function getRegistrationState(
   if (new Date(event.starts_at) <= now) return { open: false, label: 'Evento ya comenzado' }
   if (!event.registration_open) return { open: false, label: 'Inscripciones cerradas' }
   return { open: true, label: 'Inscripciones abiertas' }
+}
+
+export function canCancelRegistration(
+  event: Pick<CampusEvent, 'status' | 'starts_at'>,
+  now: Date = new Date(),
+): boolean {
+  return (event.status === 'published' || event.status === 'active') && new Date(event.starts_at) > now
 }
