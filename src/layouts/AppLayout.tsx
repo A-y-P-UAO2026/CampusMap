@@ -1,5 +1,7 @@
-import { Map, MapPinned, Search, University, UserRound } from 'lucide-react'
-import { NavLink, Outlet } from 'react-router'
+import { useEffect, useState } from 'react'
+import { Map, MapPinned, University, UserRound } from 'lucide-react'
+import { NavLink, Outlet, useNavigate } from 'react-router'
+import { supabase } from '@/lib/supabase'
 
 const navigation = [
   { label: 'Inicio', to: '/', icon: University, end: true },
@@ -8,6 +10,78 @@ const navigation = [
 ]
 
 export function AppLayout() {
+  const navigate = useNavigate()
+  const [userName, setUserName] = useState('')
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+
+  useEffect(() => {
+    const syncUserName = async () => {
+      const { data: { session } } = await supabase.auth.getSession()
+      const currentUser = session?.user
+
+      if (!currentUser) {
+        setUserName('')
+        setIsLoggedIn(false)
+        return
+      }
+
+      setIsLoggedIn(true)
+
+      const { data: profile } = await supabase
+        .from('profiles')
+        .select('full_name')
+        .eq('id', currentUser.id)
+        .maybeSingle()
+
+      const nextName =
+        profile?.full_name ||
+        currentUser.user_metadata?.full_name ||
+        currentUser.user_metadata?.name ||
+        currentUser.email?.split('@')[0] ||
+        'Usuario'
+
+      setUserName(nextName)
+    }
+
+    void syncUserName()
+
+    const { data: authListener } = supabase.auth.onAuthStateChange(async (_event, session) => {
+      const currentUser = session?.user
+
+      if (!currentUser) {
+        setUserName('')
+        setIsLoggedIn(false)
+        return
+      }
+
+      setIsLoggedIn(true)
+
+      const { data: profile } = await supabase
+        .from('profiles')
+        .select('full_name')
+        .eq('id', currentUser.id)
+        .maybeSingle()
+
+      const nextName =
+        profile?.full_name ||
+        currentUser.user_metadata?.full_name ||
+        currentUser.user_metadata?.name ||
+        currentUser.email?.split('@')[0] ||
+        'Usuario'
+
+      setUserName(nextName)
+    })
+
+    return () => {
+      authListener.subscription.unsubscribe()
+    }
+  }, [])
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut()
+    navigate('/login', { replace: true })
+  }
+
   return (
     <div className="min-h-svh bg-background text-foreground">
       <aside className="fixed inset-y-0 left-0 z-20 hidden w-64 flex-col border-r bg-card px-4 py-6 lg:flex">
@@ -24,8 +98,24 @@ export function AppLayout() {
       <div className="lg:pl-64">
         <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b bg-background/95 px-4 backdrop-blur sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 lg:hidden"><NavBrand compact /></div>
-          <div className="hidden items-center gap-2 text-sm text-muted-foreground lg:flex"><Search className="size-4" aria-hidden="true" /><span>Explora tu campus</span></div>
-          <NavLink to="/login" className="inline-flex min-h-10 items-center gap-2 rounded-lg px-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"><UserRound className="size-4" aria-hidden="true" /><span>Iniciar sesión</span></NavLink>
+          <div className="ml-auto flex items-center gap-3">
+            {isLoggedIn ? (
+              <span className="text-sm font-medium text-foreground">{userName}</span>
+            ) : null}
+            <NavLink
+              to={isLoggedIn ? '/login' : '/login'}
+              onClick={(event) => {
+                if (isLoggedIn) {
+                  event.preventDefault()
+                  void handleLogout()
+                }
+              }}
+              className="inline-flex min-h-10 items-center gap-2 rounded-lg px-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              <UserRound className="size-4" aria-hidden="true" />
+              <span>{isLoggedIn ? 'Cerrar sesión' : 'Iniciar sesión'}</span>
+            </NavLink>
+          </div>
         </header>
         <main className="pb-24 lg:pb-10"><Outlet /></main>
       </div>
@@ -39,7 +129,7 @@ export function AppLayout() {
 
 function NavBrand({ compact = false }: { compact?: boolean }) {
   return <NavLink to="/" className="flex items-center gap-3" aria-label="Ir al inicio de CampusMap">
-    <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground"><MapPinned className="size-5" aria-hidden="true" /></span>
+    <img src="/logo_uao.png" alt="UAO" className="h-9 w-14 shrink-0 rounded-lg object-contain" />
     <span className={compact ? 'text-base font-semibold tracking-tight' : 'text-lg font-semibold tracking-tight'}>Campus<span className="text-primary">Map</span></span>
   </NavLink>
 }

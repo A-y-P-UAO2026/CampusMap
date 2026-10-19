@@ -20,6 +20,12 @@ const categoryIcons: Record<string, string> = {
   'Otros': '📍',
 }
 
+const markerAccent = '#b4535b'
+const routeAccent = '#15803d'
+const originAccent = '#2563eb'
+const destinationAccent = '#dc2626'
+const animationAccent = '#b45309'
+
 function iconForLocation(category: string | null, name: string) {
   const normalizedName = name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
   if (normalizedName.includes('cafeter')) return '☕'
@@ -35,7 +41,7 @@ function locationIcon(category: string | null, name: string, color: string, labe
   const fontSize = label ? '12px' : '16px'
   return divIcon({
     className: 'campus-location-icon',
-    html: `<span style="display:grid;place-items:center;width:30px;height:30px;border:2px solid #fff;border-radius:9999px;background:${color};box-shadow:0 2px 6px rgb(0 0 0 / .35);font-size:${fontSize};line-height:1;${selected ? 'outline:3px solid rgb(15 118 110 / .35);' : ''}" aria-hidden="true">${content}</span>`,
+    html: `<span style="display:grid;place-items:center;width:30px;height:30px;border:2px solid #fff;border-radius:9999px;background:${color};box-shadow:0 2px 6px rgb(0 0 0 / .35);font-size:${fontSize};line-height:1;${selected ? 'outline:3px solid rgb(180 83 91 / .35);' : ''}" aria-hidden="true">${content}</span>`,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -17],
@@ -104,7 +110,7 @@ function AnimatedRouteMarker({ route, playbackKey, onFinish }: {
 
   if (!start) return null
   return <CircleMarker ref={marker} center={start} radius={9}
-    pathOptions={{ color: '#ffffff', weight: 3, fillColor: '#ea580c', fillOpacity: 1 }}>
+    pathOptions={{ color: '#ffffff', weight: 3, fillColor: animationAccent, fillOpacity: 1 }}>
     <Tooltip direction="top">Recorrido animado (demostración)</Tooltip>
   </CircleMarker>
 }
@@ -150,10 +156,10 @@ export function CampusLeafletMap({ network, selectedLocation, focusToken, route,
           key={path.id}
           positions={path.coordinates.map(([lat, lng]) => [lat, lng] as [number, number])}
           pathOptions={path.source === 'simulated'
-            ? { color: '#b45309', weight: 4, dashArray: '7 8', opacity: 0.95 }
+            ? { color: '#991b1b', weight: 4, dashArray: '7 8', opacity: 0.95 }
             : path.highway === 'steps'
-              ? { color: '#7c3aed', weight: 4, opacity: 0.9 }
-              : { color: '#166534', weight: 4, opacity: 0.8 }}
+              ? { color: '#000000', weight: 4, opacity: 0.9 }
+              : { color: '#404040', weight: 4, opacity: 0.8 }}
         >
           <Tooltip sticky>
             {path.source === 'simulated'
@@ -166,7 +172,7 @@ export function CampusLeafletMap({ network, selectedLocation, focusToken, route,
       {route?.segments.map((segment) => (
         <Polyline key={`${segment.from}-${segment.to}-${segment.pathId}`}
           positions={segment.coordinates}
-          pathOptions={{ color: '#2563eb', weight: 7, opacity: 0.95,
+          pathOptions={{ color: routeAccent, weight: 7, opacity: 0.95,
             ...(segment.source === 'simulated' ? { dashArray: '8 9' } : {}) }}>
           <Tooltip sticky>{segment.source === 'simulated'
             ? 'Ruta activa · conexión simulada' : 'Ruta activa · sendero OSM'}</Tooltip>
@@ -176,8 +182,8 @@ export function CampusLeafletMap({ network, selectedLocation, focusToken, route,
         const isStart = routeStart === place.id
         const isEnd = routeEnd === place.id
         const markerLabel = isStart && isEnd ? 'A/B' : isStart ? 'A' : isEnd ? 'B' : null
-        const fillColor = isStart && isEnd ? '#7c3aed' : isStart ? '#2563eb' : isEnd ? '#dc2626'
-          : connectedIds.has(place.id) ? '#047857' : '#64748b'
+        const fillColor = isStart && isEnd ? routeAccent : isStart ? originAccent : isEnd ? destinationAccent
+          : connectedIds.has(place.id) ? markerAccent : '#737373'
         return (
           <Marker
             key={place.id}
