@@ -308,6 +308,12 @@ La animación es visual y acelerada. El código declara expresamente que no repr
 | `Map` y `Set` | Asociaciones y pertenencia eficiente | Índices, distancias, vértices visitados y lugares por ID | Usados en varios módulos |
 | Haversine/interpolación | Distancia geográfica y posición intermedia | Animación visual de la ruta | Implementado y usado |
 
+### Demostraciones visuales
+
+![Demostración principal de CampusMap](src/images/CampusMap-demo-HD.gif)
+
+![Segunda demostración de CampusMap](src/images/CampusMap-demo-2-HD.gif)
+
 ## 9. Instrucciones de ejecución
 
 ### Requisitos
