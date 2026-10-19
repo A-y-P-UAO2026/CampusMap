@@ -1,5 +1,5 @@
 import { useState, type SubmitEvent } from "react";
-import { ArrowLeft, MapPinned, UserPlus } from "lucide-react";
+import { ArrowLeft, UserPlus } from "lucide-react";
 import { Link, useNavigate, useSearchParams } from "react-router";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -48,9 +48,7 @@ export function RegisterPage() {
     <div className="flex min-h-svh items-center justify-center bg-muted/30 px-4 py-8 sm:px-6">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto grid size-12 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <MapPinned className="size-6" aria-hidden="true" />
-          </div>
+          <img src="/logo_uao.png" alt="Universidad Autónoma de Occidente" className="mx-auto h-16 w-36 rounded-xl object-contain" />
           <CardTitle className="pt-3 text-xl font-semibold tracking-tight">
             Crear cuenta
           </CardTitle>
