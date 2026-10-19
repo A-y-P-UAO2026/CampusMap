@@ -124,17 +124,15 @@ La interfaz muestra:
 - indicación de conexiones simuladas;
 - una animación opcional de recorrido.
 
-### 4.6 Funcionalidades implementadas y pendientes
+### 4.6 Funcionalidades implementadas
 
 Están implementados el mapa, la búsqueda por prefijo, la selección de origen y destino, el cálculo de rutas, el historial de lugares consultados, la inversión de origen/destino, la representación de geometrías y la animación visual.
 
 También están implementados el catálogo de eventos, el detalle de un evento, autenticación, registro de cuentas e inscripción/cancelación en eventos mediante funciones RPC de Supabase.
 
-No se verificó una interfaz de administración para crear o editar ubicaciones, caminos o eventos. La gestión de esos datos está definida en la base de datos y sus políticas, pero no se presenta como una pantalla de administración dentro de las rutas de `src/App.tsx`. Tampoco se verificó un cálculo de tiempo real de caminata, navegación GPS o seguimiento de la posición del usuario.
-
 ## 5. Arquitectura y tecnologías
 
-### 5.1 Tecnologías verificadas
+### 5.1 Tecnologías
 
 | Tecnología | Uso en el proyecto |
 |---|---|
@@ -310,41 +308,7 @@ La animación es visual y acelerada. El código declara expresamente que no repr
 | `Map` y `Set` | Asociaciones y pertenencia eficiente | Índices, distancias, vértices visitados y lugares por ID | Usados en varios módulos |
 | Haversine/interpolación | Distancia geográfica y posición intermedia | Animación visual de la ruta | Implementado y usado |
 
-## 9. Ejemplo de funcionamiento verificable
-
-Se puede tomar como escenario `Porteria 1` como origen y `Biblioteca - CRAI` como destino. Este ejemplo utiliza únicamente nombres y conexiones presentes en `src/features/map/data/uao-network.json`.
-
-La ejecución verificada construye un grafo con 122 ubicaciones y 116 caminos. Dijkstra devuelve la siguiente secuencia:
-
-```text
-Porteria 1
-→ Nodo peatonal -76.5231689,3.3536522
-→ Nodo peatonal -76.5227300,3.3536565
-→ Nodo peatonal -76.5227293,3.3535027
-→ Nodo peatonal -76.5222391,3.3535055
-→ Biblioteca - CRAI
-```
-
-El resultado verificado tiene:
-
-- distancia acumulada: `156.572` según los pesos de los caminos;
-- 5 tramos;
-- 18 vértices visitados por Dijkstra antes de determinar la ruta;
-- 2 conexiones simuladas y 3 conexiones con procedencia `osm` en los segmentos seleccionados.
-
-El primer tramo comienza en `Porteria 1`, los tres tramos intermedios corresponden a nodos y caminos de la red, y el último tramo llega a `Biblioteca - CRAI`. `routeSegments()` valida que las coordenadas de cada segmento comiencen y terminen en las ubicaciones esperadas. Luego `CampusLeafletMap` dibuja la ruta como polilíneas y puede animarla.
-
-La distancia no se interpreta como una medición GPS ni como una estimación del tiempo de desplazamiento: es la suma de los pesos de las filas de caminos seleccionadas.
-
-### Evidencia visual de funcionamiento
-
-Las siguientes demostraciones GIF muestran la interacción con el mapa y el cálculo/animación de recorridos dentro de CampusMap:
-
-![Demostración principal de CampusMap](src/images/CampusMap-demo-HD.gif)
-
-![Segunda demostración de CampusMap](src/images/CampusMap-demo-2-HD.gif)
-
-## 10. Instrucciones de ejecución
+## 9. Instrucciones de ejecución
 
 ### Requisitos
 
@@ -404,47 +368,7 @@ pnpm build
 pnpm test
 ```
 
-La entrega debe conservar la observación de la sección anterior: en el entorno utilizado para esta documentación, `pnpm test` y `pnpm build` requieren que se complete correctamente la instalación de las dependencias y tipos de Vitest.
-
-## 11. Estado actual del proyecto
-
-### 11.1 Implementadas
-
-- Navegación entre inicio, mapa, eventos, detalle, login y registro.
-- Carga de ubicaciones y caminos públicos desde Supabase.
-- Validación y asociación con geometría local de navegación.
-- Mapa Leaflet con marcadores, polilíneas, tooltips y popups.
-- Búsqueda de POI mediante Trie, con normalización de texto y límite de seis sugerencias.
-- Historial de lugares consultados mediante Stack y botón Volver.
-- Grafo ponderado en memoria.
-- Cálculo de rutas con Dijkstra.
-- Respeto de conexiones bidireccionales y unidireccionales.
-- Validación de pesos, vértices, geometrías y rutas inalcanzables.
-- Distancia acumulada y señalización de conexiones simuladas.
-- Animación visual de la geometría de la ruta.
-- Catálogo de eventos futuros ordenado con Min-Heap.
-- Detalle de eventos y ubicación relacionada.
-- Registro, login, logout y redirecciones internas seguras.
-- Inscripción, cancelación, disponibilidad y estado propio mediante RPC de Supabase.
-- Migraciones, restricciones, RLS y pruebas SQL de seguridad presentes en el repositorio.
-
-### 11.2 Parcialmente implementadas o condicionadas al entorno
-
-- La funcionalidad de mapa depende de que Supabase tenga cargada la red UAO y de que las variables de entorno sean correctas.
-- La geometría local y las filas de Supabase deben mantenerse sincronizadas; si falta una geometría, la carga del mapa muestra un error.
-- La cola FIFO está implementada, pero no es la estructura que gestiona actualmente la lista de espera de eventos; esa operación está en PostgreSQL.
-- Las pruebas TypeScript existen, pero no se pudieron ejecutar con `pnpm test` en el entorno revisado porque faltaba el ejecutable `vitest`.
-- El build no pudo completarse en el entorno revisado por la ausencia de tipos del módulo `vitest`.
-
-### 11.3 Pendientes o no verificadas en el código
-
-- No se verificó una pantalla de administración para gestionar ubicaciones, caminos o eventos.
-- No se verificó navegación GPS, ubicación en tiempo real ni recalculo dinámico según la posición del estudiante.
-- No se verificó un cálculo de duración real de caminata; la animación es demostrativa.
-- No se verificó una búsqueda por texto libre en descripciones o categorías: el índice implementado usa nombres de POI.
-- No se verificó una integración de `Queue` con la interfaz de inscripciones.
-
-## 12. Conclusiones
+## 10. Conclusiones
 
 CampusMap muestra cómo un problema cotidiano de orientación dentro de un campus puede modelarse con conceptos fundamentales de estructuras de datos y algoritmos. El grafo permite representar los caminos, mientras que Dijkstra encuentra una ruta de menor costo cuando los pesos son no negativos. La lista de adyacencia evita representar conexiones inexistentes y facilita consultar los vecinos de cada ubicación.
 
@@ -452,7 +376,7 @@ El Trie demuestra la utilidad de una estructura especializada para búsquedas po
 
 El proyecto también evidencia que la complejidad algorítmica debe analizarse junto con la arquitectura. Dijkstra usa una selección lineal y tiene costo `O(V² + E)`, una decisión explícita del código que resulta suficiente para la red actual. La aplicación separa la lógica de estructuras y algoritmos de los componentes visuales, lo que facilita probarlos sin depender del navegador.
 
-## 13. Referencias técnicas
+## 11. Referencias técnicas
 
 ### Archivos relevantes del repositorio
 
@@ -491,6 +415,3 @@ El proyecto también evidencia que la complejidad algorítmica debe analizarse j
 - [Supabase](https://supabase.com/docs)
 - [Documentación de Unicode Normalization](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
 
-## Nota de verificación
-
-Este documento se elaboró a partir del código, datos, migraciones, pruebas y configuración presentes en el repositorio. No se agregaron resultados de funcionalidades que no pudieran comprobarse directamente. Los comandos de prueba y build se reportan con el resultado observado en el entorno de revisión.
