@@ -12,6 +12,8 @@
 **Docente:** Jonathan López Londoño  
 **Fecha de entrega:** 18 de octubre de 2026
 
+**Aplicación desplegada:** [https://campus-map-tan.vercel.app](https://campus-map-tan.vercel.app)
+
 
 ---
 
